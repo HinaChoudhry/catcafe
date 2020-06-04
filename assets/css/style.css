@@ -81,3 +81,10 @@ footer {
 .fa:hover {
     color:#ccc6c6;
 }
+
+.hero-image-home {
+    background-image: url("../images/homepagebg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}

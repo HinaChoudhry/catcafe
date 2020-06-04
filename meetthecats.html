@@ -21,7 +21,7 @@
                     <div class="col logo bg-custom">
                     </div>
 
-                    <!--Nav-->
+                    <!--Nav Still need to fix hamburger icon bug-->
                         <div class="col">
                             <nav class=" bg-custom navbar navbar-expand-lg navbar-light ">
                                 <a class="navbar-brand" href="#"></a> <!-- Empty anchor tag to move menu icon to the right --> 
@@ -65,7 +65,79 @@
         </div>
     </header>
     <section>
+
+    <!--Code for the gallery section
     
+<style>
+
+.container {
+  position: relative;
+  width:20%;
+}
+
+.image {
+  opacity: 1;
+  display: inline;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="column">
+
+</div>
+<div class="container">
+  <img src="https://froala.com/wp-content/uploads/2019/11/post41.svg" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">John Doe</div>
+  </div>
+
+  </div>
+<div class="container">
+  <img src="https://froala.com/wp-content/uploads/2019/11/post41.svg" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">John Doe</div>
+  </div>
+  </div>
+<div class="container ">
+  <img src="https://froala.com/wp-content/uploads/2019/11/post41.svg" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">John Doe</div>
+  </div>
+</div>
+-->
+
+
     </section>
     <!--Footer section-->
     <footer>
@@ -107,9 +179,10 @@
                             E-mail: catcafe@hotmail.com
                             </li>
                             <li>
-                            Address: 76 Rose Lane <br>
-                                    Manchester <br>
-                                    M3 4FL
+                            Address: 76 Rose Lane<br>
+                            Stockport<br>
+                            Manchester <br>
+                            SK66DS
                             </li>  
                         </ul>
                 </div>
