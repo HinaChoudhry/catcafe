@@ -82,9 +82,25 @@ footer {
     color:#ccc6c6;
 }
 
-.hero-image-home {
-    background-image: url("../images/homepagebg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+/**********Homepage background image********/
+
+/**** The following code (.background and .layer) has been taken from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image ***/
+.background {
+    background:url("../images/homepagebg.jpg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    height: 853px;
+    width: 100%;
+
 }
+.layer {
+    background-color: rgba(163, 99, 25, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 853px;
+    opacity: 0.2;
+}
+
