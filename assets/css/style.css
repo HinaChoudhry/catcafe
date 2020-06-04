@@ -43,7 +43,7 @@ header {
 
 /* *******************Fonts******************/ 
 .ulfont {
-    Font-family: 'Raleway', sans-serif;
+    Font-family: 'Raleway', serif;
     Font-size: 20px;
     Font-weight: 400;
       
@@ -71,14 +71,14 @@ footer {
 
 /*****Font Awesome*****/
 
-.fa {
+.fa-footer {
     color: #e7e7e7;
     display: inline;
     font-size: 40px;
     margin-left: 20px;
 }
 
-.fa:hover {
+.fa-footer:hover {
     color:#ccc6c6;
 }
 
@@ -95,7 +95,7 @@ footer {
 
 }
 .layer {
-    background-color: rgba(163, 99, 25, 0.7);
+    background-color: rgba(88, 87, 85, 0.7);
     position: absolute;
     top: 0;
     left: 0;
@@ -103,4 +103,35 @@ footer {
     height: 853px;
     opacity: 0.2;
 }
+/**********Hero background text*********/
+h1 {
+    Font-family: 'Playfair Display', sans-serif;
+    Font-size:100px;
+    text-shadow: 1px 1px #000;    
+}
 
+h2 {
+    Font-family: 'Playfair Display', sans-serif;
+    Font-size: 60px;
+    text-shadow: 1px 1px #000;
+}
+
+h3 {
+    Font-size: 30px;
+    text-shadow: 1px 1px #000;
+}
+
+.list-home {
+    Font-size: 25px;
+        text-shadow: 1px 1px #000;
+
+}
+.row {
+   
+    Font-family: 'Raleway', serif;
+    
+  }
+
+.hero-font-color {
+    color: #724943;
+}
