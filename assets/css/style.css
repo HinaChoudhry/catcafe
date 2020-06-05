@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+html{   
+    width: 100%;
+    overflow-x: hidden; 
+}
+
 header {
     margin: 0;
 }
@@ -208,8 +213,8 @@ h3 {
 
 .h4-carousel1 {
     color: #3c3030;
-    font-weight: 500;
-}
+    font-size: 2vw;
+    }
 
 .h2-carousel2 
 {color: #fffcfa;
@@ -219,7 +224,7 @@ Font-weight: 100;
 
 .h4-carousel2
 {color: #fffcfa;
-font-weight: 500;
+font-size: 2vw;
 }
 
 .h2-carousel3 
@@ -230,6 +235,6 @@ Font-weight: 100;
 
 .h4-carousel3
 {color: #f3730a;
-font-weight: 500;
+font-size: 2vw;
 }
 
