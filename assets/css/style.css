@@ -64,7 +64,7 @@ header {
     }
 
 .footer-style {
-    background-color: #9c6f69;
+    background-color: #f19c2cd3;
     font-family: 'Raleway', serif;
     color:#e7e7e7;
     padding-top: 20px;
@@ -98,8 +98,8 @@ footer {
     color: #fff;
 }
 
-.check-color {
-    color: rgb(10, 236, 10);
+.home-color {
+    color: rgb(125, 119, 219);
 }
 
 /**********Homepage background image********/
@@ -111,7 +111,7 @@ footer {
     background-size: cover;
     height: 100%;
     width: 100%;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
     border-bottom: 3px solid #3c3130;
     }
 
@@ -131,19 +131,17 @@ h2 {
 
 h3 {
     Font-size: 2vw;
+    Font-weight: 200;
     text-shadow: 1px 1px #000;
 }
 
 .list-home {
     Font-size: 1.5vw;
+    font-weight: 200;
         text-shadow: 1px 1px #000;
 }
 
-.list-home {
-    Font-size: 3vmin;
-        text-shadow: 1px 1px #000;
 
-}
 .row {
    
     Font-family: 'Raleway', serif;
@@ -151,7 +149,7 @@ h3 {
   }
 
 .hero-font-color {
-    color: #724943;
+    color: #c7bdbb;
 }
 
 
@@ -160,7 +158,7 @@ h3 {
 .book-image {
     background-image:url("../images/readytobook.jpg");
     background-size: contain;
-    height: 400px;
+    height: 250px;
     background-repeat: no-repeat;
     background-position-x: center;
 }
@@ -170,10 +168,68 @@ h3 {
 }
    
 .h3-custom {
-    color: #adbec9;
+    color: #c7bdbb;
     font-size: 30px;
     Font-family: 'Raleway', serif;
     Font-weight: 300;
-    text-align: bottom;
+    }
+
+#btn-color  {
+    background-color:#ec931f;
+    color: #dbd9d8;
+    
+}
+
+#btn-color:hover {
+    background-color: #ec931f96;
+}
+
+/***************Carousel*************/
+
+.carousel-font {
+    Font-family: 'Playfair Display', sans-serif;
+    font-size: 50px;
+    Font-weight: 300;
+    Color: #3c3030;
+    
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+    Font-weight: 100;
+}
+
+.h2-carousel1 {
+    color: #3c3030;
+    Font-family:'Raleway', serif;
+    Font-weight: 100;
+}
+
+.h4-carousel1 {
+    color: #3c3030;
+    font-weight: 500;
+}
+
+.h2-carousel2 
+{color: #fffcfa;
+Font-family: 'Raleway', serif;
+Font-weight: 100;
+}
+
+.h4-carousel2
+{color: #fffcfa;
+font-weight: 500;
+}
+
+.h2-carousel3 
+{color: #f3730a;
+Font-family: 'Raleway', serif;
+Font-weight: 100;
+}
+
+.h4-carousel3
+{color: #f3730a;
+font-weight: 500;
 }
 
