@@ -4,6 +4,9 @@ header {
     margin: 0;
 }
 
+.bg-color {
+    background-color: #bdced6;
+}
 /* *******************Logo******************/ 
 
 .logo {
@@ -68,6 +71,7 @@ header {
 }
 
 footer {
+    border-top: 3px solid #3c3130; 
     border-bottom: 3px solid #3c3130;
   
 }
@@ -86,28 +90,32 @@ footer {
     color:#ccc6c6;
 }
 
+.paw-color {
+    color: rgb(212, 120, 34);
+}
+
+.coffee-color {
+    color: #fff;
+}
+
+.check-color {
+    color: rgb(10, 236, 10);
+}
+
 /**********Homepage background image********/
 
-/**** The following code (.background and .layer) has been taken from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image ***/
+/**** The following code has been taken from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image ***/
 .background {
     background:url("../images/homepagebg.jpg");
     background-repeat:no-repeat;
     background-size: cover;
-    
-    height: 853px;
+    height: 100%;
     width: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    border-bottom: 3px solid #3c3130;
+    }
 
-}
-.layer {
-    background-color: rgba(88, 87, 85, 0.7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-right: 0;
-    width: 100%;
-    height: 853px;
-    opacity: 0.2;
-}
+
 /**********Hero background text*********/
 h1 {
     Font-family: 'Playfair Display', sans-serif;
@@ -129,6 +137,11 @@ h3 {
 .list-home {
     Font-size: 1.5vw;
         text-shadow: 1px 1px #000;
+}
+
+.list-home {
+    Font-size: 3vmin;
+        text-shadow: 1px 1px #000;
 
 }
 .row {
@@ -140,3 +153,27 @@ h3 {
 .hero-font-color {
     color: #724943;
 }
+
+
+/***********Ready to book section*********/
+
+.book-image {
+    background-image:url("../images/readytobook.jpg");
+    background-size: contain;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.text-bottom {
+    background-position-y: bottom;
+}
+   
+.h3-custom {
+    color: #adbec9;
+    font-size: 30px;
+    Font-family: 'Raleway', serif;
+    Font-weight: 300;
+    text-align: bottom;
+}
+

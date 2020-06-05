@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Cat Cafe</title>
 </head>
-<body>
+<body class="bg-color">
     <header>
 
         <!--Logo-->
@@ -18,7 +18,7 @@
                     <div class="col logo bg-custom">
                     </div>
 
-                    <!--Nav - Still need to fix hamburger icon bug-->
+                    <!--Nav-->
                         <div class="col">
                             <nav class=" bg-custom navbar navbar-expand-lg navbar-light ">
                                 <a class="navbar-brand" href="#"></a> <!-- Empty anchor tag to move menu icon to the right --> 
@@ -62,35 +62,57 @@
         </div>
     </header>
 
+<!---Hero Background Image section-->
     <section> <!---The following div has been taken and amended from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image and amended to add bootstrap fluidity to the image-->
-    <div class="background">
-    <div class="row">
-    <div class="col text-center hero-font-color">
-    <h1><em>Welcome to the Cat Cafe!</em></h1>&nbsp; 
-    <h2>Who We Are</h2>&nbsp; 
-    <div class="row justify-content-center">
-    <div class="col-4"><h3>We are the Cat Cafe! Local to Manchester, we allow customers to have a coffee 
-    while enjoying the company of our cats.</h3></div></div>
-    <h2>What We Do</h2>&nbsp; 
-    <div class="row justify-content-center">
-    <div class="col-4"><h3>We take in shelter cats, allowing customers to get to know them and get rehomed!</h3>&nbsp;</div></div>
-    <h2>Reasons to visit us</h2>
-    <ul class="list-style list-home">
-    <li><i class="fa fa-paw" aria-hidden="true"></i>
-    Cats, cats and more cats!</li>
-    <li><i class="fa fa-coffee" aria-hidden="true"></i>
-    We grind our own fresh beans, right in-store!</li>
-    <li><i class="fa fa-check" aria-hidden="true"></i>We help to get shelter cats new homes!</li>
-    </ul>
-    <!---The following div has been taken from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image and amended to add bootstrap fluidity to the image-->
-    <div class="layer">
-    </div>
-    </div>
-    
-    </div>
-</div>
+        <div class="background container-fluid">
+            <div class="row">
+                <div class="col text-center hero-font-color">
+                    <h1><em>Welcome to the Cat Cafe!</em></h1>&nbsp; 
+                        <h2>Who We Are</h2>&nbsp; 
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3>We are the Cat Cafe! Local to Manchester, we allow customers to have a coffee 
+                                    while enjoying the company of our cats.</h3>&nbsp;
+                                </div>
+                                </div>
+                                    <h2>What We Do</h2>&nbsp; 
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                            <h3>We take in shelter cats, allowing customers to get to know them and get rehomed!</h3>&nbsp;
+                                            </div>
+                                        </div>
+                                            <h2>Reasons to visit us</h2>
+                                                <ul class="list-style list-home">
+                                                <li><i class="paw-color fa fa-paw" aria-hidden="true"></i>
+                                                 Cats, cats and more cats!</li>
+                                                <li><i class="coffee-color fa fa-coffee" aria-hidden="true"></i>
+                                                We grind our own fresh beans, right in-store!</li>
+                                                <li><i class="check-color fa fa-check" aria-hidden="true"></i>We help to get shelter cats new homes!</li>
+                    </ul>
+                <!---The following div has been taken from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image and amended to add bootstrap fluidity to the image-->
+                <div class="layer">
+            </div>
+        </div>
+        </div>
+        </div>
     </section>
-    
+<!---Ready to book section-->
+
+    <section>
+    &nbsp;
+        <div class="book-image container-fluid">
+        
+            <div class="row">
+            
+                <div class="col">
+                <h3 class="text-center text-bottom h3-custom">Ready to book?</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
     <!--Footer section-->
     <footer>
         <div class="container-fluid footer-style">
