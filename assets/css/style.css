@@ -28,7 +28,8 @@ header {
     position: relative;
     left: 0;
     top: 0;   
-    border: 3px solid #3c3130;
+    border-top: 3px solid #3c3130;
+    border-bottom: 3px solid #3c3130;
     
  }
 
@@ -131,28 +132,28 @@ footer {
     text-shadow: 1px 1px #000;    
 }
 
-h2 {
+.h2-hero {
     Font-family: 'Playfair Display', sans-serif;
     Font-size: 4vw;
     text-shadow: 1px 1px #000;
 }
 
-h3 {
+.h3-hero {
     Font-size: 2vw;
     Font-weight: 200;
     text-shadow: 1px 1px #000;
 }
 
+
 .list-home {
     Font-size: 1.5vw;
     font-weight: 200;
-        text-shadow: 1px 1px #000;
+    text-shadow: 1px 1px #000;
 }
 
 
-.row {
-   
-    Font-family: 'Raleway', serif;
+.custom-hero {
+   Font-family: 'Raleway', serif;
     
   }
 
@@ -217,6 +218,7 @@ h3 {
 }
 
 .h4-carousel1 {
+    font-family: 'Raleway', serif;
     color: #3c3030;
     font-size: 2vw;
     }
@@ -227,8 +229,8 @@ Font-family: 'Raleway', serif;
 Font-weight: 100;
 }
 
-.h4-carousel2
-{color: #fffcfa;
+.h4-carousel2 {
+font-family: 'Raleway', serif;color: #fffcfa;
 font-size: 2vw;
 }
 
@@ -239,9 +241,10 @@ text-shadow: 0.5px 0.5px #000;
 Font-weight: 200;
 }
 
-.h4-carousel3
-{color: #f3730a;
+.h4-carousel3 {
+font-family: 'Raleway', serif;color: #f3730a;
 font-size: 2vw;
+text-shadow: 0.5px 0.5px #000;
 }
 
 /******Gallery*******/
@@ -250,4 +253,20 @@ font-size: 2vw;
 Font-family: 'Playfair Display', sans-serif;
 Font-size: 7vw;
 Color: #3c3030;
+}
+
+.cat-font {
+    font-family: 'Raleway', serif;
+    Font-weight: 200;
+    color: #ffffff;
+}
+
+/***Menu***/
+
+.menu-image {
+    background-image: url("../images/menubackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+     height: 800px;
+     background-attachment: fixed;
 }

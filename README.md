@@ -1,4 +1,4 @@
-#Milestone Project 1 – Cat Cafe
+# Milestone Project 1 – Cat Cafe
 
 My project is for a fictional cat café. It contains a homepage, gallery, menu page, contact page and FAQ. The website is a static website, primarily using HTML and CSS with the help of other frameworks such as Bootstrap to build it. The aim of the website is to attract customers to the café, providing easy navigation through the site and information for users to see. 
 [Cat Café] (https://hinachoudhry.github.io/catcafe/)
@@ -14,7 +14,7 @@ My project is for a fictional cat café. It contains a homepage, gallery, menu p
 •	As a user, I want an introduction/info page about company to see what the company do/what they are about so I can decide if I want to visit the café. 
 •	As a user, I want a map of the café to see the location of the café so I can prepare my journey in advance. 
 
-###Wireframes 
+### Wireframes 
 For my wireframes, I used the Balsamiq Wireframes programme to create them. The wireframes were valuable as they allowed me to gain an idea of what the website was to look like before building it. It also allowed me to discuss the design of the website with my mentor, prior to starting my project. A few changes were made in this discuss – customer reviews were added via a carousel on the homepage, basic contact information was added to the footer and a map was added to the Contact page. A few changes were made on the final website but the design is overall similar to the wireframes and the idea of the cat café still remains. 
 ###Design
 For the design, initially I was aiming to go for a very slick, elegant look however, after some constructive criticism, I was advised that the site looked dull as the main colors used were greys and creams/browns. After this, I decided to change some of the colors used to make the site brighter and look more appealing/fun. 
@@ -32,9 +32,9 @@ These colors were taken from Instagram.com however after using the colors on the
 
 ## Features
 ### Existing Features
-###Logo 
+### Logo 
 The aim of the logo is to attract the user, and give immediate idea of what the website is promoting. The image for the logo was chosen as it is a cat, and the way the tail is curled and the body of the cat almost looks like the handle and main container of a mug. The cat image was used from https://cdn.dribbble.com/users/1303003/screenshots/3988327/cat-logo.png and edited by myself in accordance to the website’s theme. 
-###Navbar
+### Navbar
 The aim of the navbar is to navigate the website and to be able to visit the different pages with ease. 
 -There are five links in the navbar which link to the - 
 -Homepage
@@ -43,26 +43,26 @@ The aim of the navbar is to navigate the website and to be able to visit the dif
 -Contact page
 -FAQ
 -The navbar collapses into a hamburger menu when resized to the tablet and mobile viewports.
-###Footer
+### Footer
 The footer of the website contains the following information - 
 -Opening times
 -Contact information
 -Social media links
 It allows the user to gain basic information about the café so they can plan their trip or directly contact the café. 
 
-###Info section
+### Info section
 The homepage contains an info section, giving brief details about the café – who the company are and what they do. It also contains reasons to visit the café. This allows the user to get an overview of the café and see if they would like to visit. 
-###Carousel
+### Carousel
 The homepage contains a carousel, containing customer reviews of the café. There are 3 slides, containing images with text over them of customer reviews. 
-###Gallery
+### Gallery
 There is a gallery section, allowing users to view the cats present at the café. There are also names and descriptions of the cats, when an image in the gallery is hovered over with the mouse.
-###Menu
+### Menu
 The menu section contains names, short descriptions and prices of the food and drinks available at the café. 
-###Contact us form
+### Contact us form
 There is a contact form on the Contact page, allowing the user to send messages. The different types of messages possible to send are booking requests, questions, general comments or complaints. 
-###Map
+### Map
 There is a map embedded in the Contact page, to allow the user to plan their trip ahead of time. 
-###FAQ 
+### FAQ 
 The FAQ section gives an overview of rules to follow when visiting. 
 
 ### Features Left to Implement
@@ -70,23 +70,22 @@ The FAQ section gives an overview of rules to follow when visiting.
 I would like to implement an online store where you can buy needed items for the cats via the cat café website. 
 I would like to add a live stream of the café to users so they can see the café and view the cats playing during opening hours. 
 
-- Another feature idea
 ## Technologies Used
 
-For each, provide its name, a link to its official site and a short sentence of why it was used eg 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
 
-html – To enable the basic building on the website.
-Css – for styling the website. 
-bootstrap 4 – For structure and for responsiveness when viewing on different devices. 
-Github – A remote location and where I can publish my website to host. 
-gitpod – My preferred IDE for building the website. 
-Git – for version control. 
 
-Google fonts – to choose and use different fonts for the website. 
-font awesome – For different icon elements used. 
-JS, jquery, Popper.js – To use alongside Bootstrap for creating certain parts of the website such as the hamburger icon. 
+
+[HTML]  To enable the basic building on the website.
+[CSS] for styling the website. 
+[Bootstrap 4]  For structure and for responsiveness when viewing on different devices. 
+[MD Bootstrap] For styling and responsiveness.
+[Github] A remote location and where I can publish my website to host. 
+[Gitpod]  My preferred IDE for building the website. 
+[Git] for version control. 
+[Google fonts]  to choose and use different fonts for the website. 
+[Font Awesome]  For different icon elements used. 
+[JS, jquery, Popper.js] – To use alongside Bootstrap for creating certain parts of the website such as the hamburger icon. 
+
 
 
 ## Testing
@@ -134,13 +133,11 @@ To run project locally
 ## Credits
 
 ### Content
-The text for the menu section was taken from starbucks.com and amended accordingly. 
+The text for the menu section was taken from caffenero.com and amended accordingly. 
 
 ### Media
 - The photos used in this site were obtained from pixabay.com, pexels.com, unsplash.com, shutterstock.com, pinterest.com, boredpanda.com, Logo image was from https://cdn.dribbble.com/users/1303003/screenshots/3988327/cat-logo.png
 
-###Code 
-Copy in code used here. 
 
 ### Acknowledgements
 I would like to thank my mentor, Precious Ijege, for his time, advise and comments in working with me to build my project.
