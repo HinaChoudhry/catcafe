@@ -243,6 +243,8 @@ font-size: 2vw;
 /**********Gallery******/
 
 /******Lines 246 to 267 have been copied and slightly amended from https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering****/
+/****
+
 .img__wrap {
  
   position: relative;
@@ -263,7 +265,7 @@ width: 300px;
   visibility: hidden;
   opacity: 0;
 
-  /* transition effect. not necessary */
+ 
   transition: opacity .2s, visibility .2s;
 }
 
@@ -277,4 +279,6 @@ background-image: url('../images/bobacat.jpg');
 height: 300px;
 width: 300px;
 }
+
+**/
 
