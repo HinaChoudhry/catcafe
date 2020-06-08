@@ -208,7 +208,8 @@ h3 {
 .h2-carousel1 {
     color: #3c3030;
     Font-family:'Raleway', serif;
-    Font-weight: 100;
+    Font-weight: 200;
+    text-shadow: none;
 }
 
 .h4-carousel1 {
@@ -230,11 +231,50 @@ font-size: 2vw;
 .h2-carousel3 
 {color: #f3730a;
 Font-family: 'Raleway', serif;
-Font-weight: 100;
+text-shadow: 0.5px 0.5px #000;
+Font-weight: 200;
 }
 
 .h4-carousel3
 {color: #f3730a;
 font-size: 2vw;
+}
+
+/**********Gallery******/
+
+/******Lines 246 to 267 have been copied and slightly amended from https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering****/
+.img__wrap {
+ 
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+
+.bean {
+background-image: url('../images/beancat.jpg');
+height: 300px;
+width: 300px;
+}
+
+.img__description {
+  position: relative;
+  background: rgba(118, 120, 121, 0.39);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.boba {
+background-image: url('../images/bobacat.jpg');
+height: 300px;
+width: 300px;
 }
 
