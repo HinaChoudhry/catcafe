@@ -10,17 +10,17 @@
     <title>Cat Cafe</title>
 </head>
 <body>
-    <header>
+<header>
 
-        <!--Logo-->
-            <div class="container-fluid">
-                <div class="row no-gutters">
-                    <div class="col logo bg-custom">
-                    </div>
+<!--Logo and navbar-->
+<div class="container-fluid">
+    <div class="row no-gutters">
+        <div class="logo bg-custom">
+        </div>                   
+        <div class="col">
 
-                    <!--Nav Still need to fix hamburger icon bug-->
-                        <div class="col">
-                            <nav class=" bg-custom navbar navbar-expand-lg navbar-light ">
+
+                            <nav class="bg-custom navbar navbar-expand-lg navbar-light ">
                                 <a class="navbar-brand" href="#"></a> <!-- Empty anchor tag to move menu icon to the right --> 
                                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" 
                                     aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,13 +29,13 @@
                                     </button>
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                             <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ulfont">
-                                <li class="nav-item">
+                                <li>
                                     <a class="nav-link" href="index.html">
                                         Home
-                                    </a>
+                                    </a>                                                                    
                                 </li>
                                 <li>
-                                    <a class="nav-link" href="meetthecats.html">
+                                    <a class="nav-link active" href="meetthecats.html">
                                         Meet the Cats
                                     </a>
                                 </li>
@@ -57,114 +57,113 @@
                             </ul>
                         </div>
                     </nav> 
-                </div>
-            </div>
         </div>
-    </header>
+    </div>
+</div>
+</header>
 
-    <!-------------Gallery section-----> 
-        <section>
+<!-------------Gallery section. The following code for each image was used from https://mdbootstrap.com/docs/jquery/css/hover-effects/ 
+and amended to be responsive-----> 
+<section>
 
-<h1 class="text-center">Meet the Cats!</h1>
+<h1 class="text-center gallery-font-h1">Meet the Cats!</h1>
 &nbsp;
 
 <!------First third---->
-
 <div class="container">
-<div class="row mb-5">
-  <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 mb-4 mb-xs-0">
-  <div class="view overlay">
-    <img src="assets/images/beancat.jpg" class="w-100 img-size img-fluid rounded center" alt="blonde cat">
-    <div class="mask flex-center rgba-black-strong">
-        <p class="white-text">Bean<br>Bean is a curious kitty who likes treats and pets.</p>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 mb-4 mb-xs-0">
+            <div class="view overlay">
+                <img src="assets/images/beancat.jpg" class="w-100 img-size img-fluid rounded center" alt="blonde cat">
+                <div class="mask flex-center rgba-black-strong">
+                <p class="white-text">Bean -<br>Bean is a quiet kitty but soon warms up to you. 
+                She enjoys treats and pats and will happily enjoy a snack while you do too.</p>
+            </div>
+        </div>
     </div>
-   </div>
-  </div>
   
   
-  <div class="col-lg-4 col-md-6 col-sm-8 col-xs-8 mb-4 mb-md-0">
-  <div class="view overlay">
-    <img src="assets/images/bobacat.jpg" class="w-100 img-fluid rounded" alt="black and white cat">
-    <div class="mask flex-center rgba-black-strong">
+<div class="col-lg-4 col-md-6 col-sm-8 col-xs-8 mb-4 mb-xs-0">
+    <div class="view overlay">
+        <img src="assets/images/bobacat.jpg" class="w-100 img-fluid rounded" alt="black and white cat">
+        <div class="mask flex-center rgba-black-strong">
         <p class="white-text">Boba<br></p>
+        </div>
     </div>
-   </div>
-  </div>
+</div>
 
   
-    <div class="col-lg-4 col-md-6 col-sm-8 col-xs-8 mb-4 mb-md-0">
-  <div class="view overlay">
-    <img src="assets/images/dannycat.jpg" class="w-100 img-fluid rounded " alt="orange tabby cat">
-    <div class="mask flex-center rgba-black-strong">
+<div class="col-lg-4 col-md-6 col-sm-8 col-xs-8 mb-4 mb-xs-0">
+    <div class="view overlay">
+        <img src="assets/images/dannycat.jpg" class="w-100 img-fluid rounded " alt="orange tabby cat">
+        <div class="mask flex-center rgba-black-strong">
         <p class="white-text">Danny<br></p>
+        </div>
     </div>
-    </div>
-   </div>
+</div>
  
 
 
-  <!----Second third-->
+<!----Second third-->
 
-   <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 mb-4 mb-xs-0">
-  <div class="view overlay">
-    <img src="assets/images/happycat.jpg" class="w-100 img-fluid rounded center" alt="blonde cat">
-    <div class="mask flex-center rgba-black-strong">
+<div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 mb-4 mb-xs-0">
+    <div class="view overlay">
+        <img src="assets/images/happycat.jpg" class="w-100 img-fluid rounded center" alt="blonde cat">
+        <div class="mask flex-center rgba-black-strong">
         <p class="white-text">Happy<br></p>
+        </div>
     </div>
-   </div>
-  </div>
+</div>
 
-    <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 mb-4 mb-xs-0">
-  <div class="view overlay">
-    <img src="assets/images/jovanacat.jpg" class="w-100 img-fluid rounded center" alt="blonde cat">
-    <div class="mask flex-center rgba-black-strong">
+<div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 mb-4 mb-xs-0">
+    <div class="view overlay">
+        <img src="assets/images/jovanacat.jpg" class="w-100 img-fluid rounded center" alt="blonde cat">
+        <div class="mask flex-center rgba-black-strong">
         <p class="white-text">Jovana<br></p>
-    </div>
+        </div>
    </div>
-  </div>
+</div>
 
-
-  <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 mb-4 mb-xs-0">
-  <div class="view overlay">
-    <img src="assets/images/mayacat.jpg" class="w-100 img-fluid rounded center" alt="blonde cat">
-    <div class="mask flex-center rgba-black-strong">
+<div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 mb-4 mb-xs-0">
+    <div class="view overlay">
+        <img src="assets/images/mayacat.jpg" class="w-100 img-fluid rounded center" alt="blonde cat">
+        <div class="mask flex-center rgba-black-strong">
         <p class="white-text">Maya<br></p>
-    </div>
+        </div>
    </div>
-  </div>
+</div>
 
 <!---Third third--->
 
 <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 mb-4 mb-xs-0">
-  <div class="view overlay">
-    <img src="assets/images/raycat.jpg" class="w-100 img-fluid rounded center" alt="blonde cat">
-    <div class="mask flex-center rgba-black-strong">
+    <div class="view overlay">
+        <img src="assets/images/raycat.jpg" class="w-100 img-fluid rounded center" alt="blonde cat">
+        <div class="mask flex-center rgba-black-strong">
         <p class="white-text">Ray<br></p>
-    </div>
+        </div>
    </div>
-  </div>
-
-  <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 mb-4 mb-xs-0">
-  <div class="view overlay">
-    <img src="assets/images/stefancat.jpg" class="w-100 img-fluid rounded center" alt="blonde cat">
-    <div class="mask flex-center rgba-black-strong">
-        <p class="white-text">Stefan<br></p>
-    </div>
-   </div>
-  </div>
-
-  <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 mb-4 mb-xs-0">
-  <div class="view overlay">
-    <img src="assets/images/sydneecat.jpg" class="w-100 img-fluid rounded center" alt="blonde cat">
-    <div class="mask flex-center rgba-black-strong">
-        <p class="white-text">Sydnee<br></p>
-    </div>
-   </div>
-  </div>
-
-  </div>
 </div>
-    &nbsp;
+
+<div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 mb-4 mb-xs-0">
+    <div class="view overlay">
+        <img src="assets/images/stefancat.jpg" class="w-100 img-fluid rounded center" alt="blonde cat">
+        <div class="mask flex-center rgba-black-strong">
+        <p class="white-text">Stefan<br></p>
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 mb-4 mb-xs-0">
+    <div class="view overlay">
+        <img src="assets/images/sydneecat.jpg" class="w-100 img-fluid rounded center" alt="blonde cat">
+        <div class="mask flex-center rgba-black-strong">
+        <p class="white-text">Sydnee<br></p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    
   </section>
     <!--Footer section-->
     <footer>
@@ -228,6 +227,6 @@
      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
     </body>
     </html>
