@@ -84,7 +84,7 @@ I would like to add a live stream of the café to users so they can see the caf�
 [Git] for version control. 
 [Google fonts]  to choose and use different fonts for the website. 
 [Font Awesome]  For different icon elements used. 
-[JS, jquery, Popper.js] – To use alongside Bootstrap for creating certain parts of the website such as the hamburger icon. 
+[JS, jquery, Popper.js]  To use alongside Bootstrap for creating certain parts of the website such as the hamburger icon. 
 
 
 
@@ -93,7 +93,7 @@ I would like to add a live stream of the café to users so they can see the caf�
 - W3C CSS Validation – This was used for checking errors in the CSS code. 
 -I had initial problems with the logo and hamburger menu. They were not responsive to different viewports and the dropdown for the menu had too much padding, making the links drop further below the navbar. By removing extra padding in the CSS this made the dropdown links fit on the navbar instead of falling below. 
 
-###User Story tests
+### User Story tests
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 -As a user, I want an FAQ of the café to see which rules to follow while in the café.
 -	There is an FAQ on the 5th page of the website. 

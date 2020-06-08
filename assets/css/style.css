@@ -30,12 +30,8 @@ header {
     top: 0;   
     border-top: 3px solid #3c3130;
     border-bottom: 3px solid #3c3130;
-    
- }
+     }
 
- h5 {
-    margin-left: 30px;
- }
 
 /* *******************Navbar and nav******************/ 
 
@@ -269,4 +265,5 @@ Color: #3c3030;
     background-repeat: no-repeat;
      height: 800px;
      background-attachment: fixed;
+     overflow: auto;
 }
