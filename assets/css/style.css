@@ -209,6 +209,7 @@ footer {
 .h2-carousel1 {
     color: #3c3030;
     Font-family:'Raleway', serif;
+    Font-size: 3vw;
     Font-weight: 200;
     text-shadow: none;
 }
@@ -222,6 +223,7 @@ footer {
 .h2-carousel2 
 {color: #fffcfa;
 Font-family: 'Raleway', serif;
+Font-size: 3vw;
 Font-weight: 100;
 }
 
@@ -233,6 +235,7 @@ font-size: 2vw;
 .h2-carousel3 
 {color: #f3730a;
 Font-family: 'Raleway', serif;
+Font-size: 3vw;
 text-shadow: 0.5px 0.5px #000;
 Font-weight: 200;
 }
