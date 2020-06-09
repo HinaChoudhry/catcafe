@@ -307,7 +307,7 @@ dd {
 
 .signup-form {
   color: #fff;
-  background-color: #3c3130;
+  background-color: #3c3130ec;
   width: 600px;
   height: 600px;
   position: relative; 
@@ -320,6 +320,7 @@ dd {
     padding: 5px;
     margin: 20px;
     Font-family: 'Raleway', serif;
+    
 }
 
 .text-form:hover {
@@ -353,6 +354,13 @@ dd {
     color:#f19c2c;
 }
 
-.form-bg {
-    background:linear-gradient(#e7e7e7, white)
+
+
+/******FAQ******/
+
+.faq-bg {
+    background-image: url("../images/pawprints.png");
+    height: auto;
+    width: auto;
+    background-repeat: repeat;
 }
