@@ -42,9 +42,7 @@
       <div class="container-fluid">
         <div class="row no-gutters">
           <div class="col logo bg-custom"></div>
-
-          <!--Nav Still need to fix hamburger icon bug-->
-          <div class="col">
+            <div class="col">
             <nav class="bg-custom navbar navbar-expand-lg navbar-light">
               <a class="navbar-brand" href="#"></a>
               <!-- Empty anchor tag to move menu icon to the right -->
@@ -55,8 +53,7 @@
                 data-target="#navbarTogglerDemo03"
                 aria-controls="navbarTogglerDemo03"
                 aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"> </span>
               </button>
               <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -93,7 +90,36 @@
         </div>
       </div>
     </header>
-    <section></section>
+
+<!--------Form------->
+
+    <section class="form-bg">
+   <h1 class="text-center">Contact Us</h1>
+   <div class="container-fluid">
+   <div class="row">
+   <div class="col d-flex justify-content-center">
+<form action="#" class="signup-form text-form">
+ <h3>Please feel free to contact us!</h3>
+<input type="text" name="name" placeholder="Name" class="text-form"><br>
+<input type="text" name="email" placeholder="E-mail Address" class="text-form"><br>
+<label for="inquiry" class="text-form-type">Type of Inquiry</label><br>
+<select name="inquiry" id="inquiry" class="text-form-type">
+<option value="bookings">Bookings</option>
+<option value="questions">Questions</option>
+<option value="comments">General Comments</option>
+<option value="complaints">Complaints</option>
+</select><br>
+ <div class="form-group">
+    <textarea class="form-control text-form" id="exampleFormControlTextarea1" rows="3" placeholder="Enter text here"></textarea>
+  </div>
+<input type="submit" value="Submit" class="text-form form-btn">
+
+</form>
+</div>
+</div>
+</div>
+</section>
+
     <!--Footer section-->
     <footer>
       <div class="container-fluid footer-style">
@@ -105,7 +131,7 @@
                 Monday 10am - 6pm
               </li>
               <li>
-                Tuesday 10 - 6pm
+                Tuesday 10am - 6pm
               </li>
               <li>
                 Wednesday - Closed

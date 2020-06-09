@@ -54,7 +54,6 @@ header {
     padding: 0;
 }
 
-/* *******************Fonts******************/ 
 .ulfont {
     Font-family: 'Raleway', serif;
     Font-size: 20px;
@@ -299,4 +298,61 @@ dd {
     Font-family: 'Raleway', serif;
     Color: #e7e7e7;
     Font-size: 100%;
+}
+
+
+/******Contact*****/
+
+/***Form*****/
+
+.signup-form {
+  color: #fff;
+  background-color: #3c3130;
+  width: 600px;
+  height: 600px;
+  position: relative; 
+  
+}
+
+
+.text-form {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    Font-family: 'Raleway', serif;
+}
+
+.text-form:hover {
+  border-color: #f19c2c;
+}
+
+.text-form-type {
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 20px;
+    Font-family: 'Raleway', serif;
+}
+
+.text-form-type:hover {
+  border-color: #f19c2c;
+}
+
+.form-btn {
+    background-color:#f19c2c;
+    color: #e7e7e7; 
+    margin-top: 20px;
+    padding: 15px 35px 15px 35px;
+    text-align: center;
+    padding: 15px;
+    border: none;
+}
+
+.form-btn:hover {
+    background-color: #e7e7e7;
+    color:#f19c2c;
+}
+
+.form-bg {
+    background:linear-gradient(#e7e7e7, white)
 }
