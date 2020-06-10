@@ -106,6 +106,8 @@ footer {
     color: rgb(125, 119, 219);
 }
 
+
+
 /**********Homepage background image********/
 
 /**** The following code has been taken from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image ***/
@@ -305,16 +307,31 @@ dd {
 
 
 .contact-bg {
-    background: linear-gradient(#bdced6, #fdfdfd)
+    background-image: url("../images/cakes.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
 }
 
 
 /***Form*****/
 
+.contact-h1 {
+    Font-family: 'Playfair Display', sans-serif;
+    font-size: 6vw;
+    color: #3c3130;
+}
+
+.contact-h3 {
+    Font-family: 'Playfair Display', sans-serif;
+    font-size: 3vw;
+    color: #3c3130;
+}
 
 .signup-form {
   color: #fff;
-  background-color: #3c3130ec;
+  background-color: #04021fc7;
   width: auto;
   height: auto;
   position: relative; 
@@ -366,12 +383,27 @@ dd {
     width: auto;
 }
 
+.kittens-img {
+    background-color:#eeeff4;
+    background-image: url("../images/kittens.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 392px;
+
+}
+
+.color-bg {
+    background-color:#eeeff4;
+}
+
 /******FAQ******/
 
 .faq-bg {
-    background-image: url("../images/pawprints.png");
-    height: auto;
-    width: auto;
-    background-repeat: repeat;
+    background-image: url("../images/catwithcoffee.jpg");
+  background-size: cover;
+    background-repeat: no-repeat;
+     height: 392px;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
 }
 
