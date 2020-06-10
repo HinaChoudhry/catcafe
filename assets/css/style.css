@@ -320,6 +320,7 @@ dd {
     padding: 5px;
     margin: 20px;
     Font-family: 'Raleway', serif;
+    border: 2px solid #3c3130;
     
 }
 
@@ -354,7 +355,9 @@ dd {
     color:#f19c2c;
 }
 
-
+.comment-box {
+    width: 500px;
+}
 
 /******FAQ******/
 
@@ -364,3 +367,4 @@ dd {
     width: auto;
     background-repeat: repeat;
 }
+
