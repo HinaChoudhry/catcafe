@@ -384,17 +384,11 @@ dd {
 }
 
 .kittens-img {
-    background-color:#eeeff4;
-    background-image: url("../images/kittens.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 392px;
+   background-color: #fdfdfd;
+    }
 
-}
-
-.color-bg {
-    background-color:#eeeff4;
+.color-bg-form {
+    background: linear-gradient(#eeeff4, #fdfdfd, #fdfdfd)
 }
 
 /******FAQ******/
