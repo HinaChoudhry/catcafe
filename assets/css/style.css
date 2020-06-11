@@ -383,6 +383,9 @@ dd {
     width: auto;
 }
 
+/*****These two are to set the background colors of the contact page. As the kittens image was a rectangle, 
+to blend the colours without having to amend the color of the kittens background image.******/ 
+
 .kittens-img {
    background-color: #fdfdfd;
     }
@@ -401,5 +404,7 @@ dd {
     background-repeat: no-repeat;
      height: 392px;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+    overflow:auto;
+    
 }
 
