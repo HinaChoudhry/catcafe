@@ -261,6 +261,12 @@ Color: #3c3030;
     color: #ffffff;
 }
 
+.gal-p {
+    font-family: 'Raleway', serif;
+    color: #3c3030;
+    Font-weight: 400;
+}
+
 /***Menu***/
 
 .menu-image {
@@ -395,17 +401,16 @@ to blend the colours without having to amend the color of the kittens background
 }
 
 
-
 /******FAQ******/
 
 .faq-bg {
     background-image: url("../images/catwithcoffee.jpg");
-  background-size: cover;
-  background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-     height: auto;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
-    
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 }
 
 .h1-faq {
