@@ -168,6 +168,17 @@ footer{
   height: 250px;
   background-repeat: no-repeat;
   background-position-x: center;
+  position: relative;
+ }
+
+.center{
+margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background
 }
 
 .text-bottom{
@@ -175,10 +186,11 @@ footer{
 }
 
 .h3-custom{
-  color: #c7bdbb;
-  font-size: 30px;
+  color: #fa9004;
+  font-size: 40px;
   font-family: "Raleway", serif;
   font-weight: 300;
+  text-shadow: 1px 1px #000;
 }
 
 #btn-color{
@@ -188,14 +200,18 @@ footer{
 }
 
 #btn-color:hover{
-  background-color: #ec931f96;
+  background-color: #ec931fc5;
 }
 
 /***************Carousel*************/
 
+.pos {
+    position: relative;
+}
+
 .carousel-font{
   font-family: "Playfair Display", sans-serif;
-  font-size: 50px;
+  font-size: 4vmax;
   font-weight: 300;
   color: #3c3030;
 }
@@ -213,7 +229,7 @@ footer{
   font-weight: 200;
   margin-bottom: 5%;
   overflow: auto;
-}
+  }
 
 .h4-carousel1{
   font-family: "Raleway", serif;
@@ -283,39 +299,39 @@ footer{
 /***Menu***/
 
 .menu-image{
-  background-image: url("../images/menubg.jpg");
+  background-image: url("../images/menubg1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: auto;
   overflow-x: hidden;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
 }
 
 .h1-menu{
   font-family: "Playfair Display", sans-serif;
   font-size: 7vh;
-  color: #e7e7e7;
+  color: #3c3130;
 }
 
 .h2-menu{
   font-family: "Playfair Display", sans-serif;
   font-size: 5vh;
-  color: #e7e7e7;
+  color: #3c3130;
 }
 
 dt{
   font-family: "Raleway", serif;
-  color: #e7e7e7;
+  color: #3c3130;
   font-size: 2.5vh;
-  font-weight: 400;
+  font-weight: 600;
   text-decoration: underline;
 }
 
 dd{
   font-family: "Raleway", serif;
-  color: #e7e7e7;
+  color: #3c3130;
   font-size: 100%;
+  font-weight: 500;
 }
 
 /******Contact*****/
@@ -437,7 +453,9 @@ dd{
   color: #e7e7e7;
   border-radius: 5px;
   display: inline-block;
-  padding: 5px;
+  padding: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .answer-box{
@@ -445,7 +463,9 @@ dd{
   color: #04021f;
   border-radius: 5px;
   display: inline-block;
-  padding: 5px;
+  padding: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .answer-font{

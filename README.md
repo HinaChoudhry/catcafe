@@ -4,7 +4,7 @@ My project is for a fictional cat café. It contains a homepage, gallery, menu p
 [Cat Café](https://hinachoudhry.github.io/catcafe/)
 ## UX
  The website is for cat lovers and for customers who would like to enjoy a drink or food while being able to interact with cats. For them to be able to see which cats are at the café, to see menu options and provide information to the customers about the cafe such as opening times, location etc. In terms of business, the aim of the website is to attract customers and spread the idea of visiting a cat As a user, I want a gallery of the cats with names/descriptions of cats to see which cats are in the café.
-###User Stories
+### User Stories
 •	As a user, I want an FAQ of the café to see which rules to follow while in the café.
 •	As a user, I want a menu to see what food/drink are available so I can plan ahead and choose what I want.
 •	As a user, I want a contact/booking section to be able to book times/contact the café so I can plan my trip.
@@ -110,7 +110,7 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 -As a user, I want an introduction/info page about company to see what the company do/what they are about so I can decide if I want to visit the café. 
 -	The hero text for the homepage include information about the company, what their aim is and what they do. 
 -As a user, I want a map of the café to see the location of the café so I can prepare my journey in advance.
--	There is a embedded map on the Contact page with a pin, locating the café (although the location was randomly selected”.
+-	There is a embedded map on the Contact page with a pin, locating the café (although the location was randomly selected).
 The features were tested on multiple browsers and devices to check if the features were appealing as well as responsive. 
 
 
@@ -128,7 +128,7 @@ To run project locally
 -	Open Git Bash in your local IDE. 
 -	Change the working directoyy to the location where the cloned directory is to be made. 
 -	Type git clone and paste the URL from which you previously copied. 
--	
+
 
 
 ## Credits
