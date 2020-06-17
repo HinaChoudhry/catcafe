@@ -1,7 +1,7 @@
 # Milestone Project 1 – Cat Cafe
 
 My project is for a fictional cat café. It contains a homepage, gallery, menu page, contact page and FAQ. The website is a static website, primarily using HTML and CSS with the help of other frameworks such as Bootstrap to build it. The aim of the website is to attract customers to the café, providing easy navigation through the site and information for users to see. 
-[Cat Café] (https://hinachoudhry.github.io/catcafe/)
+[Cat Café](https://hinachoudhry.github.io/catcafe/)
 ## UX
  The website is for cat lovers and for customers who would like to enjoy a drink or food while being able to interact with cats. For them to be able to see which cats are at the café, to see menu options and provide information to the customers about the cafe such as opening times, location etc. In terms of business, the aim of the website is to attract customers and spread the idea of visiting a cat As a user, I want a gallery of the cats with names/descriptions of cats to see which cats are in the café.
 ###User Stories
@@ -16,11 +16,11 @@ My project is for a fictional cat café. It contains a homepage, gallery, menu p
 
 ### Wireframes 
 For my wireframes, I used the Balsamiq Wireframes programme to create them. The wireframes were valuable as they allowed me to gain an idea of what the website was to look like before building it. It also allowed me to discuss the design of the website with my mentor, prior to starting my project. A few changes were made in this discuss – customer reviews were added via a carousel on the homepage, basic contact information was added to the footer and a map was added to the Contact page. A few changes were made on the final website but the design is overall similar to the wireframes and the idea of the cat café still remains. 
-###Design
+### Design
 For the design, initially I was aiming to go for a very slick, elegant look however, after some constructive criticism, I was advised that the site looked dull as the main colors used were greys and creams/browns. After this, I decided to change some of the colors used to make the site brighter and look more appealing/fun. 
-###Font
+### Font
 I used Google Fonts to choose my fonts. The main two fonts used were ‘Playfair Display’ with a backup of sans-serif, and ‘Raleway’, with a backup of serif. ‘Playfair Display’ was mainly used for headings, logos and titles while ‘Raleway’ was used primarily for other text on the website such as for customer reviews, contact form and descriptions of the cats on the gallery page. 
-###Colors
+### Colors
 I used hex codes for my choice of colors to be able to select more precise colors. The initial color scheme was as follows – 
 #4F3B38
 #C9C180
@@ -89,9 +89,9 @@ I would like to add a live stream of the café to users so they can see the caf�
 
 
 ## Testing
--W3C Mark-up Validation – This was used for checking html cold for validity and to ensure there were no errors in the html code. 
-- W3C CSS Validation – This was used for checking errors in the CSS code. 
--I had initial problems with the logo and hamburger menu. They were not responsive to different viewports and the dropdown for the menu had too much padding, making the links drop further below the navbar. By removing extra padding in the CSS this made the dropdown links fit on the navbar instead of falling below. 
+W3C Mark-up Validation. This was used for checking html cold for validity and to ensure there were no errors in the html code. 
+W3C CSS Validation. This was used for checking errors in the CSS code. 
+I had initial problems with the logo and hamburger menu. They were not responsive to different viewports and the dropdown for the menu had too much padding, making the links drop further below the navbar. By removing extra padding in the CSS this made the dropdown links fit on the navbar instead of falling below. 
 
 ### User Story tests
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -115,12 +115,13 @@ The features were tested on multiple browsers and devices to check if the featur
 
 
 ## Deployment
-To deploy the GitHub repository to GitHub pages the following steps were done – 
+To deploy the GitHub repository to GitHub pages the following steps were done 
 -	Select Settings at the top of the page. 
 -	Go the the GitHub Pages section from there.
 -	In the Source section, click the dropdown menu labelled None and select the Master Branch. 
 -	This should automatically refresh, deploying the website. 
 -	Scroll back to the GitHub Pages section, where the link should be available. 
+
 To run project locally
 -	Click the “Clone or download” button under the repo name. 
 -	In the Clone with the HTTPs section, copy the clone URL for the repo.

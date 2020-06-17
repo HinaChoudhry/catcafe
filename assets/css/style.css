@@ -1,494 +1,464 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-html, body{   
-    width: 100%;
-    overflow-x: hidden; 
+html, body{
+  width: 100%;
+  overflow-x: hidden;
 }
 
 header{
-    margin: 0;
+  margin: 0;
 }
 
 .bg-color{
-    background-color: #bdced6;
+  background-color: #bdced6;
 }
 
 /***Homepage****/
 
-
-/* *******************Logo******************/ 
+/* *******************Logo******************/
 
 .logo{
-    background-image: url("../images/catcafelogo.jpg");
-    background-size: contain;
-    background-position: left;
-    background-repeat: no-repeat;
-    height: 158px;
-    width: 200px;
-    position: relative;
-    left: 0;
-    top: 0;   
-    border-top: 3px solid #3c3130;
-    border-bottom: 3px solid #3c3130;
+  background-image: url("../images/catcafelogo.jpg");
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 158px;
+  width: 200px;
+  position: relative;
+  left: 0;
+  top: 0;
+  border-top: 3px solid #3c3130;
+  border-bottom: 3px solid #3c3130;
 }
 
 .logo2{
-    height:135px;
-    width: 190px;
-    display: inherit;
-
+  height: 135px;
+  width: 190px;
+  display: inherit;
 }
 
-.ul-bg {
-    background-color: #e7e7e7;
-    padding: 10px;
-    
+.ul-bg{
+  background-color: #e7e7e7;
+  padding: 10px;
 }
 
-
-/* *******************Navbar and nav******************/ 
+/* *******************Navbar and nav******************/
 
 .navbar{
-    width: 100%;
-    height: 158px;
+  width: 100%;
+  height: 158px;
 }
 
 .bg-custom{
-    background-color: #e7e7e7;
-    border-top: 3px solid #3c3130;
-    border-bottom: 3px solid #3c3130;
-   }
-
-.container-fluid {
-    padding: 0;
-    }
-
-.nav-link {
-    padding: 0;
+  background-color: #e7e7e7;
+  border-top: 3px solid #3c3130;
+  border-bottom: 3px solid #3c3130;
 }
 
-.ulfont {
-    Font-family: 'Raleway', serif;
-    Font-size: 20px;
-    Font-weight: 400;
-      }
+.container-fluid{
+  padding: 0;
+}
 
+.nav-link{
+  padding: 0;
+}
+
+.ulfont{
+  font-family: "Raleway", serif;
+  font-size: 20px;
+  font-weight: 400;
+}
 
 /******************* Footer ***************/
 
-.list-style {
-    list-style-type: none;
-    padding-right: 30px;
-    }
-
-.footer-style {
-    background-color: #f19c2cd3;
-    font-family: 'Raleway', serif;
-    color:#e7e7e7;
-    padding-top: 20px;
+.list-style{
+  list-style-type: none;
+  padding-right: 30px;
 }
 
-footer {
-    border-top: 3px solid #3c3130; 
-    border-bottom: 3px solid #3c3130;
-  
+.footer-style{
+  background-color: #f19c2cd3;
+  font-family: "Raleway", serif;
+  color: #e7e7e7;
+  padding-top: 20px;
 }
 
-
+footer{
+  border-top: 3px solid #3c3130;
+  border-bottom: 3px solid #3c3130;
+}
 
 /*****Font Awesome*****/
 
-.fa-footer {
-    color: #e7e7e7;
-    display: inline;
-    font-size: 40px;
-    margin-left: 10px;
-    padding: 0;
+.fa-footer{
+  color: #e7e7e7;
+  display: inline;
+  font-size: 40px;
+  margin-left: 10px;
+  padding: 0;
 }
 
-.fa-footer:hover {
-    color:#ccc6c6;
+.fa-footer:hover{
+  color: #ccc6c6;
 }
 
-.paw-color {
-    color: rgb(212, 120, 34);
+.paw-color{
+  color: rgb(212, 120, 34);
 }
 
-.coffee-color {
-    color: #fff;
+.coffee-color{
+  color: #fff;
 }
 
-.home-color {
-    color: rgb(125, 119, 219);
+.home-color{
+  color: rgb(125, 119, 219);
 }
-
-
 
 /**********Homepage background image********/
 
 /**** The following code has been taken from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image ***/
-.background {
-    background:url("../images/homepagebg.jpg");
-    background-repeat:no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
-    border-bottom: 3px solid #3c3130;
-    }
-
+.background{
+  background: url("../images/homepagebg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid #3c3130;
+}
 
 /**********Hero background text*********/
-.h1-hero {
-    Font-family: 'Playfair Display', sans-serif;
-    Font-size:7vw;
-    text-shadow: 1px 1px #000;    
+.h1-hero{
+  font-family: "Playfair Display", sans-serif;
+  font-size: 7vw;
+  text-shadow: 1px 1px #000;
 }
 
-.h2-hero {
-    Font-family: 'Playfair Display', sans-serif;
-    Font-size: 4vw;
-    text-shadow: 1px 1px #000;
+.h2-hero{
+  font-family: "Playfair Display", sans-serif;
+  font-size: 4vw;
+  text-shadow: 1px 1px #000;
 }
 
-.h3-hero {
-    Font-size: 2vw;
-    Font-weight: 200;
-    text-shadow: 1px 1px #000;
+.h3-hero{
+  font-size: 2vw;
+  font-weight: 200;
+  text-shadow: 1px 1px #000;
 }
 
-
-.list-home {
-    Font-size: 1.5vw;
-    font-weight: 200;
-    text-shadow: 1px 1px #000;
+.list-home{
+  font-size: 1.5vw;
+  font-weight: 200;
+  text-shadow: 1px 1px #000;
 }
 
-
-.custom-hero {
-   Font-family: 'Raleway', serif;
-    
-  }
-
-.hero-font-color {
-    color: #c7bdbb;
+.custom-hero{
+  font-family: "Raleway", serif;
 }
 
+.hero-font-color{
+  color: #c7bdbb;
+}
 
 /***********Ready to book section*********/
 
-.book-image {
-    background-image:url("../images/readytobook.jpg");
-    background-size: contain;
-    height: 250px;
-    background-repeat: no-repeat;
-    background-position-x: center;
+.book-image{
+  background-image: url("../images/readytobook.jpg");
+  background-size: contain;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
-.text-bottom {
-    background-position-y: bottom;
-}
-   
-.h3-custom {
-    color: #c7bdbb;
-    font-size: 30px;
-    Font-family: 'Raleway', serif;
-    Font-weight: 300;
-    }
-
-#btn-color {
-    background-color:#ec931f;
-    color: #dbd9d8;
-    border-radius: 8px;
-    
+.text-bottom{
+  background-position-y: bottom;
 }
 
-#btn-color:hover {
-    background-color: #ec931f96;
+.h3-custom{
+  color: #c7bdbb;
+  font-size: 30px;
+  font-family: "Raleway", serif;
+  font-weight: 300;
 }
 
+#btn-color{
+  background-color: #ec931f;
+  color: #dbd9d8;
+  border-radius: 8px;
+}
 
+#btn-color:hover{
+  background-color: #ec931f96;
+}
 
 /***************Carousel*************/
 
-
-
-.carousel-font {
-    Font-family: 'Playfair Display', sans-serif;
-    font-size: 50px;
-    Font-weight: 300;
-    Color: #3c3030;
-    
+.carousel-font{
+  font-family: "Playfair Display", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  color: #3c3030;
 }
 
-.carousel-caption {
-    top: 0;
-    bottom: auto;
-    Font-weight: 100;
+.carousel-caption{
+  top: 0;
+  bottom: auto;
+  font-weight: 100;
 }
 
-
-
-.h2-carousel1 {
-    color: #3c3030;
-    Font-family:'Raleway', serif;
-    Font-size: 3vw;
-    Font-weight: 200;
-    margin-bottom: 5%;
-    
-    
+.h2-carousel1{
+  color: #3c3030;
+  font-family: "Raleway", serif;
+  font-size: 3vw;
+  font-weight: 200;
+  margin-bottom: 5%;
 }
 
-.h4-carousel1 {
-    font-family: 'Raleway', serif;
-    color: #3c3030;
-    font-size: 2.5vw;
-       
-    }
-
-.h2-carousel2 
-{color: #fffcfa;
-Font-family: 'Raleway', serif;
-Font-size: 3vw;
-Font-weight: 100;
-margin-bottom: 5%;
-
-
+.h4-carousel1{
+  font-family: "Raleway", serif;
+  color: #3c3030;
+  font-size: 2.5vw;
 }
 
-.h4-carousel2 {
-font-family: 'Raleway', serif;color: #fffcfa;
-font-size: 2.5vw;
+.h2-carousel2{
+  color: #fffcfa;
+  font-family: "Raleway", serif;
+  font-size: 3vw;
+  font-weight: 100;
+  margin-bottom: 5%;
 }
 
-.h2-carousel3 
-{color: #f3730a;
-Font-family: 'Raleway', serif;
-Font-size: 3vw;
-text-shadow: 0.5px 0.5px #000;
-Font-weight: 200;
-margin-bottom: 5%;
+.h4-carousel2{
+  font-family: "Raleway", serif;
+  color: #fffcfa;
+  font-size: 2.5vw;
 }
 
-.h4-carousel3 {
-font-family: 'Raleway', serif;color: #f3730a;
-font-size: 2.5vw;
-text-shadow: 0.5px 0.5px #000;
+.h2-carousel3{
+  color: #f3730a;
+  font-family: "Raleway", serif;
+  font-size: 3vw;
+  text-shadow: 0.5px 0.5px #000;
+  font-weight: 200;
+  margin-bottom: 5%;
+}
 
+.h4-carousel3{
+  font-family: "Raleway", serif;
+  color: #f3730a;
+  font-size: 2.5vw;
+  text-shadow: 0.5px 0.5px #000;
 }
 
 /******Gallery*******/
 
-.gallery-font-h1 {
-Font-family: 'Playfair Display', sans-serif;
-Font-size: 7vw;
-Color: #3c3030;
+.gallery-font-h1{
+  font-family: "Playfair Display", sans-serif;
+  font-size: 7vw;
+  color: #3c3030;
 }
 
-.cat-font {
-    font-family: 'Raleway', serif;
-    Font-weight: 200;
-    color: #ffffff;
-    padding: 10%;
-    text-align: center;
+.cat-font{
+  font-family: "Raleway", serif;
+  font-weight: 200;
+  color: #ffffff;
+  padding: 10%;
+  text-align: center;
 }
 
-.gal-p {
-    font-family: 'Raleway', serif;
-    color: #3c3030;
-    Font-weight: 400;
+.gal-p{
+  font-family: "Raleway", serif;
+  color: #3c3030;
+  font-weight: 400;
 }
 
 /***Menu***/
 
-.menu-image {
-    background-image: url("../images/menubg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-     height: 800px;
-     background-attachment: fixed;
-     overflow: auto;
-     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+.menu-image{
+  background-image: url("../images/menubg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: auto;
+  overflow-x: hidden;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
 }
 
-.padding-menu {
-    padding-left: 50px;
+.h1-menu{
+  font-family: "Playfair Display", sans-serif;
+  font-size: 7vh;
+  color: #e7e7e7;
 }
 
-.h1-menu {
-    Font-family: 'Playfair Display', sans-serif;
-    Font-size: 7vh;
-    color: #e7e7e7;
+.h2-menu{
+  font-family: "Playfair Display", sans-serif;
+  font-size: 5vh;
+  color: #e7e7e7;
 }
 
-.h2-menu {
-    Font-family: 'Playfair Display', sans-serif;
-    Font-size:5vh;
-    color: #e7e7e7;
-    }
-
-dt {
-    Font-family: 'Raleway', serif;
-    color: #e7e7e7;
-    Font-size: 2.5vh;
-    Font-weight: 400;
-    text-decoration: underline;
+dt{
+  font-family: "Raleway", serif;
+  color: #e7e7e7;
+  font-size: 2.5vh;
+  font-weight: 400;
+  text-decoration: underline;
 }
 
-dd {
-    Font-family: 'Raleway', serif;
-    Color: #e7e7e7;
-    Font-size: 100%;
+dd{
+  font-family: "Raleway", serif;
+  color: #e7e7e7;
+  font-size: 100%;
 }
-
 
 /******Contact*****/
 
-
-.contact-bg {
-    background-image: url("../images/cakes.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: auto;
+.contact-bg{
+  background-image: url("../images/cakes.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+  
 }
-
 
 /***Form*****/
 
-.contact-h1 {
-    Font-family: 'Playfair Display', sans-serif;
-    font-size: 6vw;
-    color: #3c3130;
+.contact-h1{
+  font-family: "Playfair Display", sans-serif;
+  font-size: 6vw;
+  color: #3c3130;
 }
 
-.contact-h3 {
-    Font-family: 'Playfair Display', sans-serif;
-    font-size: 3vw;
-    color: #3c3130;
+.contact-h3{
+  font-family: "Playfair Display", sans-serif;
+  font-size: 3vw;
+  color: #3c3130;
 }
 
-.signup-form {
+.signup-form{
   color: #fff;
   background-color: #04021fc7;
   width: auto;
   height: auto;
-  position: relative; 
-  
+  position: relative;
 }
 
+.text-form{
+  border-radius: 5px;
+  padding: 5px;
+  margin: 20px;
+  font-family: "Raleway", serif;
+  border: 2px solid #3c3130;
+  width: 80%;
+}
 
-.text-form {
-    border-radius: 5px;
-    padding: 5px;
-    margin: 20px;
-    Font-family: 'Raleway', serif;
+.text-form:hover{
+  border-color: #f19c2c;
+}
+
+.text-form-type{
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 20px;
+  font-family: "Raleway", serif;
+  width: 80%;
+}
+
+.text-form-type:hover{
+  border-color: #f19c2c;
+}
+
+.form-btn{
+  background-color: #f19c2c;
+  color: #e7e7e7;
+  margin-top: 20px;
+  padding: 15px 35px 15px 35px;
+  text-align: center;
+  padding: 15px;
+  border: none;
+  width: 30%;
+}
+
+.form-btn:hover{
+  background-color: #e7e7e7;
+  color: #f19c2c;
+}
+
+.comment-box{
+  width: 80%;
+}
+
+.h3-form-padding{
+    padding-left: 22px;
+}
+
+/*****This is to set the background colors of the contact page. As the kittens image was a rectangle, 
+to blend the colours without having to amend the color of the kittens background image.******/
+
+.kittens-img{
+    background: linear-gradient(#f4f5f7, #fdfdfd, #fdfdfd);
+}
+
+.iframe-size{
+  width: 75%;
+  height:85%;
     border: 2px solid #3c3130;
-    
-}
-
-.text-form:hover {
-  border-color: #f19c2c;
-}
-
-.text-form-type {
-    font-size: 18px;
-    border-radius: 5px;
-    padding: 5px;
-    margin-left: 20px;
-    Font-family: 'Raleway', serif;
-}
-
-.text-form-type:hover {
-  border-color: #f19c2c;
-}
-
-.form-btn {
-    background-color:#f19c2c;
-    color: #e7e7e7; 
-    margin-top: 20px;
-    padding: 15px 35px 15px 35px;
-    text-align: center;
-    padding: 15px;
-    border: none;
-}
-
-.form-btn:hover {
-    background-color: #e7e7e7;
-    color:#f19c2c;
-}
-
-.comment-box {
-    width: auto;
-}
-
-/*****These two are to set the background colors of the contact page. As the kittens image was a rectangle, 
-to blend the colours without having to amend the color of the kittens background image.******/ 
-
-.kittens-img {
-   background-color: #fdfdfd;
-    }
-
-.color-bg-form {
-    background: linear-gradient(#eeeff4, #fdfdfd, #fdfdfd)
 }
 
 
 /******FAQ******/
 
-.faq-bg {
-    background-image: url("../images/catwithcoffee.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+.faq-bg{
+  background-image: url("../images/catwithcoffee.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
 }
 
-.h1-faq {
-    color: #e7e7e7;
-    Font-family: 'Playfair Display', sans-serif;
-    Font-size: 5vw;
+.h1-faq{
+  color: #e7e7e7;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 5vw;
 }
 
-.question-font {
-    Font-family: 'Raleway', serif;
-    font-weight: 200;
+.question-font{
+  font-family: "Raleway", serif;
+  font-weight: 200;
 }
 
-.question-box {
-    background-color: #04021fc7;
-    color: #e7e7e7;
-    border-radius: 5px;
-    display: inline-block;
-    padding: 5px;
-    
+.question-box{
+  background-color: #04021fc7;
+  color: #e7e7e7;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px;
 }
 
-.answer-box {
-    background-color: #e7e7e7a1;
-    color: #04021f;
-    border-radius: 5px;
-    display: inline-block;
-    padding: 5px;
+.answer-box{
+  background-color: #e7e7e7a1;
+  color: #04021f;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px;
 }
 
-.answer-font {   
-    Font-family: 'Raleway', serif;
-    font-weight: 300;
+.answer-font{
+  font-family: "Raleway", serif;
+  font-weight: 300;
 }
 
-.faq-p {
-    color: #e7e7e7;
-
+.faq-p{
+  color: #e7e7e7;
 }
 
-.faq-a {
-    color: #d67820;
-
+.faq-a{
+  color: #d67820;
 }
 
-.faq-a:hover {
-    color: #e7e7e7;
+.faq-a:hover{
+  color: #e7e7e7;
 }
