@@ -141,13 +141,13 @@ footer{
 }
 
 .h3-hero{
-  font-size: 2vw;
+  font-size: 3.5vmin;
   font-weight: 200;
   text-shadow: 1px 1px #000;
 }
 
 .list-home{
-  font-size: 1.5vw;
+  font-size: 3vmin;
   font-weight: 200;
   text-shadow: 1px 1px #000;
 }
@@ -209,45 +209,53 @@ footer{
 .h2-carousel1{
   color: #3c3030;
   font-family: "Raleway", serif;
-  font-size: 3vw;
+  font-size: 3vmax;
   font-weight: 200;
   margin-bottom: 5%;
+  overflow: auto;
 }
 
 .h4-carousel1{
   font-family: "Raleway", serif;
   color: #3c3030;
-  font-size: 2.5vw;
+  font-size: 2vmax;
+  overflow: auto;
 }
 
 .h2-carousel2{
   color: #fffcfa;
   font-family: "Raleway", serif;
-  font-size: 3vw;
+  font-size: 3vmax;
   font-weight: 100;
   margin-bottom: 5%;
+  overflow: auto;
 }
+
 
 .h4-carousel2{
   font-family: "Raleway", serif;
   color: #fffcfa;
-  font-size: 2.5vw;
+  font-size: 2vmax;
+  font-weight: 100;
+  overflow: auto;
 }
 
 .h2-carousel3{
   color: #f3730a;
   font-family: "Raleway", serif;
-  font-size: 3vw;
+  font-size: 3vmax;
   text-shadow: 0.5px 0.5px #000;
   font-weight: 200;
   margin-bottom: 5%;
+  overflow: auto;
 }
 
 .h4-carousel3{
   font-family: "Raleway", serif;
   color: #f3730a;
-  font-size: 2.5vw;
+  font-size: 2vmax;
   text-shadow: 0.5px 0.5px #000;
+  overflow: auto;
 }
 
 /******Gallery*******/
@@ -346,7 +354,8 @@ dd{
 .text-form{
   border-radius: 5px;
   padding: 5px;
-  margin: 20px;
+  margin-left: 20px;
+  margin-bottom: 5px;
   font-family: "Raleway", serif;
   border: 2px solid #3c3130;
   width: 80%;
@@ -391,13 +400,6 @@ dd{
 
 .h3-form-padding{
     padding-left: 22px;
-}
-
-/*****This is to set the background colors of the contact page. As the kittens image was a rectangle, 
-to blend the colours without having to amend the color of the kittens background image.******/
-
-.kittens-img{
-    background: linear-gradient(#f4f5f7, #fdfdfd, #fdfdfd);
 }
 
 .iframe-size{
