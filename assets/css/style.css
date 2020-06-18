@@ -299,12 +299,13 @@ margin: 0;
 /***Menu***/
 
 .menu-image{
-  background-image: url("../images/menubg1.jpg");
+  background-image: url("../images/menubg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: auto;
   overflow-x: hidden;
+  box-shadow: inset 0 0 0 1000px rgb(0, 0, 0, 0.2)
 }
 
 .h1-menu{
@@ -357,6 +358,8 @@ dd{
   font-family: "Playfair Display", sans-serif;
   font-size: 3vw;
   color: #3c3130;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .signup-form{
@@ -370,7 +373,7 @@ dd{
 .text-form{
   border-radius: 5px;
   padding: 5px;
-  margin-left: 20px;
+  margin-top: 20px;
   margin-bottom: 5px;
   font-family: "Raleway", serif;
   border: 2px solid #3c3130;
@@ -393,7 +396,9 @@ dd{
 .text-form-type:hover{
   border-color: #f19c2c;
 }
-
+.margin-box{
+    margin-left:20px;
+}
 .form-btn{
   background-color: #f19c2c;
   color: #e7e7e7;
@@ -419,11 +424,14 @@ dd{
 }
 
 .iframe-size{
-  width: 75%;
-  height:85%;
+  width: 80%;
+  height:87.5%;
     border: 2px solid #3c3130;
 }
 
+.kittens-img {
+    background-color: #fdfdfd;
+}
 
 /******FAQ******/
 
