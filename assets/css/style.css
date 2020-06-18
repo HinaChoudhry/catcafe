@@ -77,7 +77,7 @@ header{
 }
 
 .footer-style{
-  background-color: #f19c2cd3;
+  background-color: #D4AF37;
   font-family: "Raleway", serif;
   color: #e7e7e7;
   padding-top: 20px;
@@ -186,7 +186,7 @@ margin: 0;
 }
 
 .h3-custom{
-  color: #fa9004;
+  color: #D4AF37;
   font-size: 40px;
   font-family: "Raleway", serif;
   font-weight: 300;
@@ -194,13 +194,13 @@ margin: 0;
 }
 
 #btn-color{
-  background-color: #ec931f;
+  background-color: #D4AF37;
   color: #dbd9d8;
   border-radius: 8px;
 }
 
 #btn-color:hover{
-  background-color: #ec931fc5;
+  background-color: rgba(212, 175, 55, 0.808);
 }
 
 /***************Carousel*************/
@@ -257,7 +257,7 @@ margin: 0;
 }
 
 .h2-carousel3{
-  color: #f3730a;
+  color: #D4AF37;
   font-family: "Raleway", serif;
   font-size: 3vmax;
   text-shadow: 0.5px 0.5px #000;
@@ -268,7 +268,7 @@ margin: 0;
 
 .h4-carousel3{
   font-family: "Raleway", serif;
-  color: #f3730a;
+  color: #D4AF37;
   font-size: 2vmax;
   text-shadow: 0.5px 0.5px #000;
   overflow: auto;
@@ -381,7 +381,7 @@ dd{
 }
 
 .text-form:hover{
-  border-color: #f19c2c;
+  border-color: #D4AF37;
 }
 
 .text-form-type{
@@ -394,15 +394,16 @@ dd{
 }
 
 .text-form-type:hover{
-  border-color: #f19c2c;
+  border-color: #D4AF37;
 }
 .margin-box{
     margin-left:20px;
 }
 .form-btn{
-  background-color: #f19c2c;
+  background-color: #D4AF37;
   color: #e7e7e7;
   margin-top: 20px;
+  margin-left: 20px;
   padding: 15px 35px 15px 35px;
   text-align: center;
   padding: 15px;
@@ -412,7 +413,7 @@ dd{
 
 .form-btn:hover{
   background-color: #e7e7e7;
-  color: #f19c2c;
+  color: #D4AF37;
 }
 
 .comment-box{
@@ -486,7 +487,7 @@ dd{
 }
 
 .faq-a{
-  color: #d67820;
+  color: #D4AF37;
 }
 
 .faq-a:hover{
