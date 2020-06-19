@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-html, body {
+html, body{
   width: 100%;
   overflow-x: hidden;
 }
 
-body {
+body{
   padding-top: 151px;
 }
 
-header {
+header{
   margin: 0;
 }
 
-.bg-color {
+.bg-color{
   background-color: #bdced6;
 }
 
@@ -21,70 +21,70 @@ header {
 
 /* *******************Logo******************/
 
-.logo {
+.logo{
   height: 135px;
   width: 190px;
   display: inherit;
   margin-left: 5%;
 }
 
-.ul-bg {
+.ul-bg{
   background-color: #e7e7e7;
   padding: 10px;
 }
 
 /* *******************Navbar and nav******************/
 
-.navbar {
+.navbar{
   height: 158px;
   padding: 0;
 }
 
-.bg-custom {
+.bg-custom{
   background-color: #e7e7e7;
   border-top: 3px solid #3c3130;
   border-bottom: 3px solid #3c3130;
 }
 
-.container-fluid {
+.container-fluid{
   padding: 0;
 }
 
-.nav-link {
+.nav-link{
   padding: 0;
 }
 
-.ulfont {
+.ulfont{
   font-family: "Raleway", serif;
   font-size: 20px;
   font-weight: 400;
 }
 
-.li-size {
+.li-size{
   width: 200px;
 }
 /******************* Footer ***************/
 
-.list-style {
+.list-style{
   list-style-type: none;
   padding-right: 30px;
 }
 
-.footer-style {
+.footer-style{
   background-color: #d4af37;
   font-family: "Raleway", serif;
   color: #e7e7e7;
   padding-top: 20px;
 }
 
-footer {
+footer{
   border-top: 3px solid #3c3130;
   border-bottom: 3px solid #3c3130;
 }
 
 /*****Font Awesome*****/
 
-.fa-footer {
+.fa-footer{
   color: #e7e7e7;
   display: inline;
   font-size: 40px;
@@ -92,26 +92,27 @@ footer {
   padding: 0;
 }
 
-.fa-footer:hover {
+.fa-footer:hover{
   color: #ccc6c6;
 }
 
-.paw-color {
+.paw-color{
   color: rgb(212, 120, 34);
 }
 
-.coffee-color {
+.coffee-color{
   color: #fff;
 }
 
-.home-color {
+.home-color{
   color: rgb(125, 119, 219);
 }
 
 /**********Homepage background image********/
 
 /**** The following code has been taken from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image ***/
-.background {
+
+.background{
   background: url("../images/homepagebg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -122,41 +123,42 @@ footer {
 }
 
 /**********Hero background text*********/
-.h1-hero {
+
+.h1-hero{
   font-family: "Playfair Display", sans-serif;
   font-size: 7vw;
   text-shadow: 1px 1px #000;
 }
 
-.h2-hero {
+.h2-hero{
   font-family: "Playfair Display", sans-serif;
   font-size: 4vw;
   text-shadow: 1px 1px #000;
 }
 
-.h3-hero {
+.h3-hero{
   font-size: 3.5vmin;
   font-weight: 200;
   text-shadow: 1px 1px #000;
 }
 
-.list-home {
+.list-home{
   font-size: 3vmin;
   font-weight: 200;
   text-shadow: 1px 1px #000;
 }
 
-.custom-hero {
+.custom-hero{
   font-family: "Raleway", serif;
 }
 
-.hero-font-color {
+.hero-font-color{
   color: #c7bdbb;
 }
 
 /***********Ready to book section*********/
 
-.book-image {
+.book-image{
   background-image: url("../images/readytobook.jpg");
   background-size: contain;
   height: 250px;
@@ -165,7 +167,7 @@ footer {
   position: relative;
 }
 
-.center-book {
+.center-book{
   margin: 0;
   position: absolute;
   top: 50%;
@@ -174,11 +176,11 @@ footer {
   transform: translate(-50%, -50%);
 }
 
-.text-bottom {
+.text-bottom{
   background-position-y: bottom;
 }
 
-.h3-custom {
+.h3-custom{
   color: #d4af37;
   font-size: 40px;
   font-family: "Raleway", serif;
@@ -186,36 +188,36 @@ footer {
   text-shadow: 1px 1px #000;
 }
 
-#btn-color {
+#btn-color{
   background-color: #d4af37;
   color: #dbd9d8;
   border-radius: 8px;
 }
 
-#btn-color:hover {
+#btn-color:hover{
   background-color: rgba(212, 175, 55, 0.808);
 }
 
 /***************Carousel*************/
 
-.pos {
+.pos{
   position: relative;
 }
 
-.carousel-font {
+.carousel-font{
   font-family: "Playfair Display", sans-serif;
   font-size: 4vmax;
   font-weight: 300;
   color: #3c3030;
 }
 
-.carousel-caption {
+.carousel-caption{
   top: 0;
   bottom: auto;
   font-weight: 100;
 }
 
-.h2-carousel1 {
+.h2-carousel1{
   color: #3c3030;
   font-family: "Raleway", serif;
   font-size: 3vmax;
@@ -225,7 +227,7 @@ footer {
   overflow: auto;
 }
 
-.h4-carousel1 {
+.h4-carousel1{
   font-family: "Raleway", serif;
   color: #3c3030;
   font-size: 2vmax;
@@ -233,7 +235,7 @@ footer {
   overflow: auto;
 }
 
-.h2-carousel2 {
+.h2-carousel2{
   color: #fffcfa;
   font-family: "Raleway", serif;
   font-size: 3vmax;
@@ -243,7 +245,7 @@ footer {
   overflow: auto;
 }
 
-.h4-carousel2 {
+.h4-carousel2{
   font-family: "Raleway", serif;
   color: #fffcfa;
   font-size: 2vmax;
@@ -251,7 +253,7 @@ footer {
   overflow: auto;
 }
 
-.h2-carousel3 {
+.h2-carousel3{
   color: #d4af37;
   font-family: "Raleway", serif;
   font-size: 3vmax;
@@ -262,7 +264,7 @@ footer {
   overflow: auto;
 }
 
-.h4-carousel3 {
+.h4-carousel3{
   font-family: "Raleway", serif;
   color: #d4af37;
   font-size: 2vmax;
@@ -272,13 +274,13 @@ footer {
 
 /******Gallery*******/
 
-.gallery-font-h1 {
+.gallery-font-h1{
   font-family: "Playfair Display", sans-serif;
   font-size: 7vw;
   color: #3c3030;
 }
 
-.cat-font {
+.cat-font{
   font-family: "Raleway", serif;
   font-weight: 200;
   color: #ffffff;
@@ -286,7 +288,7 @@ footer {
   text-align: center;
 }
 
-.gal-p {
+.gal-p{
   font-family: "Raleway", serif;
   color: #3c3030;
   font-weight: 400;
@@ -294,7 +296,7 @@ footer {
 
 /***Menu***/
 
-.menu-image {
+.menu-image{
   background-image: url("../images/menubg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -304,19 +306,19 @@ footer {
   box-shadow: inset 0 0 0 1000px rgb(0, 0, 0, 0.2);
 }
 
-.h1-menu {
+.h1-menu{
   font-family: "Playfair Display", sans-serif;
   font-size: 7vh;
   color: #3c3130;
 }
 
-.h2-menu {
+.h2-menu{
   font-family: "Playfair Display", sans-serif;
   font-size: 5vh;
   color: #3c3130;
 }
 
-dt {
+dt{
   font-family: "Raleway", serif;
   color: #3c3130;
   font-size: 2.5vh;
@@ -324,7 +326,7 @@ dt {
   text-decoration: underline;
 }
 
-dd {
+dd{
   font-family: "Raleway", serif;
   color: #3c3130;
   font-size: 100%;
@@ -333,7 +335,7 @@ dd {
 
 /******Contact*****/
 
-.contact-bg {
+.contact-bg{
   background-image: linear-gradient(#d4af37, #fdfdfd, #fdfdfd);
   background-size: contain;
   background-repeat: no-repeat;
@@ -343,32 +345,32 @@ dd {
 
 /***Form*****/
 
-.contact-h1 {
+.contact-h1{
   font-family: "Playfair Display", sans-serif;
   font-size: 6vw;
   color: #3c3130;
 }
 
-.contact-h2 {
+.contact-h2{
   font-family: "Playfair Display", sans-serif;
   color: #3c3130;
   font-size: 4vw;
 }
 
-.contact-h3 {
+.contact-h3{
   font-family: "Playfair Display", sans-serif;
   color: #3c3130;
   margin-top: 0;
   padding-top: 0;
 }
 
-.contact-p {
+.contact-p{
   font-family: "Raleway", serif;
   font-weight: 500;
   color: #3c3130;
 }
 
-.signup-form {
+.signup-form{
   color: #fff;
   background-color: #04021fc7;
   width: auto;
@@ -376,7 +378,7 @@ dd {
   position: relative;
 }
 
-.text-form {
+.text-form{
   border-radius: 5px;
   padding: 5px;
   margin-top: 20px;
@@ -386,10 +388,10 @@ dd {
   width: 80%;
 }
 
-.text-form:hover {
+.text-form:hover{
   border-color: #d4af37;
 }
-.text-form-box {
+.text-form-box{
   border-radius: 5px;
   padding: 5px;
   width: 90%;
@@ -399,11 +401,11 @@ dd {
   border: 2px solid #3c3130;
 }
 
-.text-form-box:hover {
+.text-form-box:hover{
   border-color: #d4af37;
 }
 
-.text-form-type {
+.text-form-type{
   font-size: 18px;
   border-radius: 5px;
   padding: 5px;
@@ -412,13 +414,15 @@ dd {
   width: 87%;
 }
 
-.text-form-type:hover {
+.text-form-type:hover{
   border-color: #d4af37;
 }
-.margin-box {
+
+.margin-box{
   margin-left: 20px;
 }
-.form-btn {
+
+.form-btn{
   background-color: #d4af37;
   color: #e7e7e7;
   margin-top: 20px;
@@ -430,34 +434,34 @@ dd {
   width: 30%;
 }
 
-.form-btn:hover {
+.form-btn:hover{
   background-color: #e7e7e7;
   color: #d4af37;
 }
 
-.comment-box {
+.comment-box{
   width: 90%;
 }
 
-.h3-form-padding {
+.h3-form-padding{
   padding-left: 22px;
 }
 
-.iframe-size {
+.iframe-size{
   width: 80%;
   height: 76%;
   border: 2px solid #3c3130;
   margin-bottom: 40px;
 }
 
-.kittens-img {
+.kittens-img{
   background-color: #fdfdfd;
   margin-top: 50px;
 }
 
 /******FAQ******/
 
-.faq-bg {
+.faq-bg{
   background-image: url("../images/catwithcoffee.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -467,18 +471,18 @@ dd {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
 }
 
-.h1-faq {
+.h1-faq{
   color: #e7e7e7;
   font-family: "Playfair Display", sans-serif;
   font-size: 5vw;
 }
 
-.question-font {
+.question-font{
   font-family: "Raleway", serif;
   font-weight: 200;
 }
 
-.question-box {
+.question-box{
   background-color: #04021fc7;
   color: #e7e7e7;
   border-radius: 5px;
@@ -488,7 +492,7 @@ dd {
   margin-right: 10px;
 }
 
-.answer-box {
+.answer-box{
   background-color: #e7e7e7a1;
   color: #04021f;
   border-radius: 5px;
@@ -498,19 +502,19 @@ dd {
   margin-right: 10px;
 }
 
-.answer-font {
+.answer-font{
   font-family: "Raleway", serif;
   font-weight: 300;
 }
 
-.faq-p {
+.faq-p{
   color: #e7e7e7;
 }
 
-.faq-a {
+.faq-a{
   color: #d4af37;
 }
 
-.faq-a:hover {
+.faq-a:hover{
   color: #e7e7e7;
 }
