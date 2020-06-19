@@ -332,13 +332,16 @@ dd{
 /******Contact*****/
 
 .contact-bg{
-  background-image: url("../images/cakes.jpg");
-  background-size: contain;
+    
+  background-image: linear-gradient(rgb(206, 206, 250), #fdfdfd, #fdfdfd);
+   background-size: contain;
   background-repeat: no-repeat;
   max-width: 100%;
   height: auto;
   
 }
+
+
 
 /***Form*****/
 
@@ -348,12 +351,24 @@ dd{
   color: #3c3130;
 }
 
+.contact-h2 {
+    font-family: 'Playfair Display', sans-serif;
+    color:#3c3130;
+    font-size: 4vw;
+}
+
 .contact-h3{
-  font-family: "Playfair Display", sans-serif;
-  font-size: 3vw;
+  font-family: "Playfair Display", sans-serif;  
   color: #3c3130;
   margin-top: 0;
   padding-top: 0;
+}
+
+.contact-p{
+    font-family: 'Raleway', serif;
+    font-weight: 500;
+    color:#3c3130;
+
 }
 
 .signup-form{
@@ -420,12 +435,14 @@ dd{
 
 .iframe-size{
   width: 80%;
-  height:87.5%;
+  height:76%;
     border: 2px solid #3c3130;
+    margin-bottom: 40px;
 }
 
 .kittens-img {
     background-color: #fdfdfd;
+    margin-top: 50px;
 }
 
 /******FAQ******/
