@@ -16,26 +16,30 @@ My project is for a fictional cat café. It contains a homepage, gallery, menu p
 
 ### Wireframes 
 For my wireframes, I used the [Balsamiq](https://balsamiq.com/) programme to create them. The wireframes were valuable as they allowed me to gain an idea of what the website was to look like before building it. It also allowed me to discuss the design of the website with my mentor, prior to starting my project. A few changes were made in this discuss – customer reviews were added via a carousel on the homepage, basic contact information was added to the footer and a map was added to the Contact page. A few changes were made on the final website but the design is overall similar to the wireframes and the idea of the cat café still remains.
--Desktop Wireframes 
-[Homepage](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/desktop/Homepage%20desktop.png?raw=true)
-[Meet the Cats](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/desktop/Gallery%20desktop.png?raw=true)
-[Menu](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/desktop/Menu%20desktop.png?raw=true)
-[Contact Us](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/desktop/Contact%20desktop.png?raw=true)
-[FAQ](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/desktop/FAQ%20desktop.png?raw=true)
 
--Tablet Wireframes
-[Homepage](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/tablet/Homepage%20tablet.png?raw=true)
-[Meet the Cats](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/tablet/Gallery%20tablet.png?raw=true)
-[Menu](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/tablet/Menu%20tablet.png?raw=true)
-[Contact Us](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/tablet/Contact%20tablet.png?raw=true)
-[FAQ](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/tablet/FAQ%20tablet.png?raw=true)
+Desktop Wireframes 
+-[Homepage](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/desktop/Homepage%20desktop.png?raw=true)
+-[Meet the Cats](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/desktop/Gallery%20desktop.png?raw=true)
+-[Menu](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/desktop/Menu%20desktop.png?raw=true)
+-[Contact Us](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/desktop/Contact%20desktop.png?raw=true)
+-[FAQ](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/desktop/FAQ%20desktop.png?raw=true)
 
--Mobile Wireframes
-[Homepage](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/mobile/Homepage%20mobile.png?raw=true)
-[Meet the Cats](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/mobile/Gallery%20mobile.png?raw=true)
-[Menu](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/mobile/Menu%20mobile.png?raw=true)
-[Contact Us](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/mobile/Contact%20mobile.png?raw=true)
-[FAQ](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/mobile/FAQ%20mobile.png?raw=true)
+
+Tablet Wireframes
+-[Homepage](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/tablet/Homepage%20tablet.png?raw=true)
+-[Meet the Cats](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/tablet/Gallery%20tablet.png?raw=true)
+-[Menu](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/tablet/Menu%20tablet.png?raw=true)
+-[Contact Us](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/tablet/Contact%20tablet.png?raw=true)
+-[FAQ](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/tablet/FAQ%20tablet.png?raw=true)
+
+
+Mobile Wireframes
+
+-[Homepage](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/mobile/Homepage%20mobile.png?raw=true)
+-[Meet the Cats](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/mobile/Gallery%20mobile.png?raw=true)
+-[Menu](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/mobile/Menu%20mobile.png?raw=true)
+-[Contact Us](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/mobile/Contact%20mobile.png?raw=true)
+-[FAQ](https://github.com/HinaChoudhry/catcafe/blob/master/wireframes/mobile/FAQ%20mobile.png?raw=true)
 
 
 ### Design
@@ -48,37 +52,47 @@ I used hex codes for my choice of colors to be able to select more precise color
 #C9C180
 #E5E1D8
 #9C6F69
-These colors were taken from [Instagram}(Instagram.com) however after using the colors on the actual website, they appeared differently to those on Instagram. #9C6F69 was more of a purple color and I was aiming for an orangey-brown. The revised colors for the final website are #E7E7E7, #3C3130 and #D4AF37.
+These colors were taken from [Instagram](Instagram.com) however after using the colors on the actual website, they appeared differently to those on Instagram. #9C6F69 was more of a purple color and I was aiming for an orangey-brown. The revised colors for the final website are #E7E7E7, #3C3130 and #D4AF37.
 
 
 
 ## Features
 ### Existing Features
 ### Logo 
-The aim of the logo is to attract the user, and give immediate idea of what the website is promoting. The image for the logo was chosen as it is a cat, and the way the tail is curled and the body of the cat almost looks like the handle and main container of a mug. The cat image was used from[Dribble](https://cdn.dribbble.com/users/1303003/screenshots/3988327/cat-logo.png) and edited by myself in accordance to the website’s theme. 
+The aim of the logo is to attract the user, and give immediate idea of what the website is promoting. The image for the logo was chosen as it is a cat, and the way the tail is curled and the body of the cat almost looks like the handle and main container of a mug. The cat image was used from [Dribble](https://cdn.dribbble.com/users/1303003/screenshots/3988327/cat-logo.png) and edited by myself in accordance to the website’s theme. 
 ### Navbar
 The aim of the navbar is to navigate the website and to be able to visit the different pages with ease. There are five links in the navbar which link to the
+
+
 -Homepage
 -Meet the cats (gallery)
 -Menu
 -Contact page
 -FAQ
+
+
 The navbar collapses into a hamburger menu when resized to the tablet and mobile viewports.
+
+
 ### Footer
 The footer of the website contains the following information
+
+
 -Opening times
 -Contact information
 -Social media links
-It allows the user to gain basic information about the café so they can plan their trip or directly contact the cafe. 
+
+
+It allows the user to gain basic information about the cafe so they can plan their trip or directly contact the cafe. 
 
 ### Info section
-The homepage contains an info section, giving brief details about the café. Who the company are and what they do. It also contains reasons to visit the café. This allows the user to get an overview of the café and see if they would like to visit. 
+The homepage contains an info section, giving brief details about the cafe. Who the company are and what they do. It also contains reasons to visit the café. This allows the user to get an overview of the café and see if they would like to visit. 
 ### Carousel
-The homepage contains a carousel, containing customer reviews of the café. There are 3 slides, containing images with text over them of customer reviews. 
+The homepage contains a carousel, containing customer reviews of the cafe. There are 3 slides, containing images with text over them of customer reviews. 
 ### Gallery
-There is a gallery section, allowing users to view the cats present at the café. There are also names and descriptions of the cats, when an image in the gallery is hovered over with the mouse.
+There is a gallery section, allowing users to view the cats present at the cafe. There are also names and descriptions of the cats, when an image in the gallery is hovered over with the mouse.
 ### Menu
-The menu section contains names, short descriptions and prices of the food and drinks available at the café. 
+The menu section contains names, short descriptions and prices of the food and drinks available at the cafe. 
 ### Contact us form
 There is a contact form on the Contact page, allowing the user to send messages. The different types of messages possible to send are booking requests, questions, general comments or complaints. 
 ### Map
@@ -95,7 +109,7 @@ I would like to add a live stream of the café to users so they can see the caf�
 
 - [HTML](https://en.wikipedia.org/wiki/HTML)  To enable the basic building on the website.
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) for styling the website. 
-- [Bootstrap](https://getbootstrap.com/  For structure and for responsiveness when viewing on different devices. 
+- [Bootstrap](https://getbootstrap.com/)  For structure and for responsiveness when viewing on different devices. 
 - [MD Bootstrap](https://mdbootstrap.com/) For styling and responsiveness.
 - [GitHub](https://github.com/) A remote location and where I can publish my website to host. 
 - [Gitpod](https://www.gitpod.io/)  My preferred IDE for building the website. 
@@ -109,6 +123,8 @@ I would like to add a live stream of the café to users so they can see the caf�
 ## Testing
 [W3C Mark-up Validation](https://validator.w3.org/) This was used for checking html cold for validity and to ensure there were no errors in the html code. 
 [W3C CSS Validation](https://jigsaw.w3.org/css-validator/). This was used for checking errors in the CSS code. 
+
+
 -I had initial problems with the logo and hamburger menu. They were not responsive to different viewports and the dropdown for the menu had too much padding, making the links drop further below the navbar. By removing extra padding in the CSS this made the dropdown links fit on the navbar instead of falling below. 
 -Navbar dropdown list items were dropping below the navbar height on mobile and tablet viewports. Resolved by adjusting the padding for list items.
 -Lot of whitespace in smaller viewports between the hero image and readytobook. Bug fixed by applying background-position-y.
@@ -120,23 +136,25 @@ I would like to add a live stream of the café to users so they can see the caf�
 -A bug was accidentally created by using a 'center' class, to center the text on the readytobook image. Images in the gallery were half cropped due to this. Resolved by changing the center class name to center-book.
 
 ### User Story Tests
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
--As a user, I want an FAQ of the café to see which rules to follow while in the café.
--	There is an FAQ on the 5th page of the website. 
--As a user, I want a menu to see what food/drink are available so I can plan ahead and choose what I want
--	There is a menu page, with names, descriptions and prices of each food and drink item. 
--As a user, I want a contact/booking section to be able to book times/contact the café so I can plan my trip.
--	There is a contact form implemented on the contact page, with different inquiries options in the dropdown list to submit. 
--As a user, I want opening/closing times to see when the café is open, so I can prepare my visit in advance.
--	There are opening and closing times in the footer. 
--As a user, I want social media links to be able to visit the company’s social media, to see what the company are like
--	There are social media links in the footer. 
--As a user, I want appealing colours, layout/design of website and a website that is easy to use, to attract me to the website and allows me to navigate the site easily.
--	There is a navbar and links for navigation that are clearly named. This also shrinks down to a hamburger menu in the smaller viewports. The colors were considered carefully and revised after initial building of the homepage. 
--As a user, I want an introduction/info page about company to see what the company do/what they are about so I can decide if I want to visit the café. 
--	The hero text for the homepage include information about the company, what their aim is and what they do. 
--As a user, I want a map of the café to see the location of the café so I can prepare my journey in advance.
--	There is a embedded map on the Contact page with a pin, locating the café (although the location was randomly selected).
+
+* As a user, I want an FAQ of the café to see which rules to follow while in the café.
+- There is an FAQ on the 5th page of the website. 
+* As a user, I want a menu to see what food/drink are available so I can plan ahead and choose what I want
+- There is a menu page, with names, descriptions and prices of each food and drink item. 
+* As a user, I want a contact/booking section to be able to book times/contact the café so I can plan my trip.
+- There is a contact form implemented on the contact page, with different inquiries options in the dropdown list to submit. 
+* As a user, I want opening/closing times to see when the café is open, so I can prepare my visit in advance.
+- There are opening and closing times in the footer. 
+* As a user, I want social media links to be able to visit the company’s social media, to see what the company are like
+- There are social media links in the footer. 
+* As a user, I want appealing colours, layout/design of website and a website that is easy to use, to attract me to the website and allows me to navigate the site easily.
+- There is a navbar and links for navigation that are clearly named. This also shrinks down to a hamburger menu in the smaller viewports. The colors were considered carefully and revised after initial building of the homepage. 
+* As a user, I want an introduction/info page about company to see what the company do/what they are about so I can decide if I want to visit the café. 
+- The hero text for the homepage include information about the company, what their aim is and what they do. 
+*As a user, I want a map of the café to see the location of the café so I can prepare my journey in advance.
+- There is a embedded map on the Contact page with a pin, locating the café (although the location was randomly selected).
+
+
 The features were tested on multiple browsers and devices to check if the features were appealing as well as responsive. 
 
 
@@ -161,7 +179,7 @@ To run project locally
 The text for the menu section was taken from [Caffe Nero](caffenero.com) and amended accordingly. 
 
 ### Media
-The photos used in this site were obtained from [Pixabay](pixabay.com), [Pexels](pexels.com), [Unsplash](unsplash.com), [Shutterstock](shutterstock.com), [Pinterest}(pinterest.com), [Bored Panda](boredpanda.com). The logo image was from [Dribble](https://cdn.dribbble.com/users/1303003/screenshots/3988327/cat-logo.png).
+The photos used in this site were obtained from [Pixabay](pixabay.com), [Pexels](pexels.com), [Unsplash](unsplash.com), [Shutterstock](shutterstock.com), [Pinterest](pinterest.com), [Bored Panda](boredpanda.com). The logo image was from [Dribble](https://cdn.dribbble.com/users/1303003/screenshots/3988327/cat-logo.png).
 
 ### Code 
 - Code for the transparent overlay used are from [this Stackoverflow page]( https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image).
