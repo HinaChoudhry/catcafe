@@ -5,17 +5,17 @@ My project is for a fictional cat café. It contains a homepage, gallery, menu p
 ## UX
  The website is for cat lovers and for customers who would like to enjoy a drink or food while being able to interact with cats. For them to be able to see which cats are at the café, to see menu options and provide information to the customers about the cafe such as opening times, location etc. In terms of business, the aim of the website is to attract customers and spread the idea of visiting a cat As a user, I want a gallery of the cats with names/descriptions of cats to see which cats are in the café.
 ### User Stories
-•	As a user, I want an FAQ of the café to see which rules to follow while in the café.
-•	As a user, I want a menu to see what food/drink are available so I can plan ahead and choose what I want.
-•	As a user, I want a contact/booking section to be able to book times/contact the café so I can plan my trip.
-•	As a user, I want opening/closing times to see when the café is open, so I can prepare my visit in advance.
-•	As a user, I want social media links to be able to visit the company’s social media, to see what the company are like.
-•	As a user, I want appealing colours, layout/design of website and a website that is easy to use, to attract me to the website and allows me to navigate the site easily.
-•	As a user, I want an introduction/info page about company to see what the company do/what they are about so I can decide if I want to visit the café. 
-•	As a user, I want a map of the café to see the location of the café so I can prepare my journey in advance. 
+-	As a user, I want an FAQ of the café to see which rules to follow while in the café.
+-	As a user, I want a menu to see what food/drink are available so I can plan ahead and choose what I want.
+-	As a user, I want a contact/booking section to be able to book times/contact the café so I can plan my trip.
+-	As a user, I want opening/closing times to see when the café is open, so I can prepare my visit in advance.
+-	As a user, I want social media links to be able to visit the company’s social media, to see what the company are like.
+-	As a user, I want appealing colours, layout/design of website and a website that is easy to use, to attract me to the website and allows me to navigate the site easily.
+-	As a user, I want an introduction/info page about company to see what the company do/what they are about so I can decide if I want to visit the café. 
+-	As a user, I want a map of the café to see the location of the café so I can prepare my journey in advance. 
 
 ### Wireframes 
-For my wireframes, I used the Balsamiq Wireframes programme to create them. The wireframes were valuable as they allowed me to gain an idea of what the website was to look like before building it. It also allowed me to discuss the design of the website with my mentor, prior to starting my project. A few changes were made in this discuss – customer reviews were added via a carousel on the homepage, basic contact information was added to the footer and a map was added to the Contact page. A few changes were made on the final website but the design is overall similar to the wireframes and the idea of the cat café still remains. 
+For my wireframes, I used the Balsamiq programme to create them. The wireframes were valuable as they allowed me to gain an idea of what the website was to look like before building it. It also allowed me to discuss the design of the website with my mentor, prior to starting my project. A few changes were made in this discuss – customer reviews were added via a carousel on the homepage, basic contact information was added to the footer and a map was added to the Contact page. A few changes were made on the final website but the design is overall similar to the wireframes and the idea of the cat café still remains. 
 ### Design
 For the design, initially I was aiming to go for a very slick, elegant look however, after some constructive criticism, I was advised that the site looked dull as the main colors used were greys and creams/browns. After this, I decided to change some of the colors used to make the site brighter and look more appealing/fun. 
 ### Font
@@ -72,28 +72,25 @@ I would like to add a live stream of the café to users so they can see the caf�
 
 ## Technologies Used
 
-
-
-
-[HTML]  To enable the basic building on the website.
-[CSS] for styling the website. 
-[Bootstrap 4]  For structure and for responsiveness when viewing on different devices. 
-[MD Bootstrap] For styling and responsiveness.
-[Github] A remote location and where I can publish my website to host. 
-[Gitpod]  My preferred IDE for building the website. 
-[Git] for version control. 
-[Google fonts]  to choose and use different fonts for the website. 
-[Font Awesome]  For different icon elements used. 
-[JS, jquery, Popper.js]  To use alongside Bootstrap for creating certain parts of the website such as the hamburger icon. 
+- [HTML](https://en.wikipedia.org/wiki/HTML)  To enable the basic building on the website.
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) for styling the website. 
+- [Bootstrap 4](https://getbootstrap.com/  For structure and for responsiveness when viewing on different devices. 
+- [MD Bootstrap](https://mdbootstrap.com/) For styling and responsiveness.
+- [GitHub](https://github.com/) A remote location and where I can publish my website to host. 
+- [Gitpod](https://www.gitpod.io/)  My preferred IDE for building the website. 
+- [GIT](https://git-scm.com/) for version control. 
+- [Google Fonts](https://fonts.google.com/)  to choose and use different fonts for the website. 
+- [Font Awesome](https://fontawesome.com/)  For different icon elements used. 
+- [jQuery](https://jquery.com/) and [Popper.js](https://popper.js.org/) To use alongside Bootstrap for creating certain parts of the website such as the hamburger icon. 
 
 
 
 ## Testing
-W3C Mark-up Validation. This was used for checking html cold for validity and to ensure there were no errors in the html code. 
-W3C CSS Validation. This was used for checking errors in the CSS code. 
+[W3C Mark-up Validation](https://validator.w3.org/) This was used for checking html cold for validity and to ensure there were no errors in the html code. 
+[W3C CSS Validation](https://jigsaw.w3.org/css-validator/). This was used for checking errors in the CSS code. 
 I had initial problems with the logo and hamburger menu. They were not responsive to different viewports and the dropdown for the menu had too much padding, making the links drop further below the navbar. By removing extra padding in the CSS this made the dropdown links fit on the navbar instead of falling below. 
 
-### User Story tests
+### User Story Tests
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 -As a user, I want an FAQ of the café to see which rules to follow while in the café.
 -	There is an FAQ on the 5th page of the website. 
@@ -118,7 +115,7 @@ The features were tested on multiple browsers and devices to check if the featur
 To deploy the GitHub repository to GitHub pages the following steps were done 
 -	Select Settings at the top of the page. 
 -	Go the the GitHub Pages section from there.
--	In the Source section, click the dropdown menu labelled None and select the Master Branch. 
+-	In the Source section, click the dropdown menu labelled 'None' and select the 'Master Branch'. 
 -	This should automatically refresh, deploying the website. 
 -	Scroll back to the GitHub Pages section, where the link should be available. 
 
@@ -126,7 +123,7 @@ To run project locally
 -	Click the “Clone or download” button under the repo name. 
 -	In the Clone with the HTTPs section, copy the clone URL for the repo.
 -	Open Git Bash in your local IDE. 
--	Change the working directoyy to the location where the cloned directory is to be made. 
+-	Change the working directory to the location where the cloned directory is to be made. 
 -	Type git clone and paste the URL from which you previously copied. 
 
 
@@ -137,8 +134,12 @@ To run project locally
 The text for the menu section was taken from caffenero.com and amended accordingly. 
 
 ### Media
-- The photos used in this site were obtained from pixabay.com, pexels.com, unsplash.com, shutterstock.com, pinterest.com, boredpanda.com, Logo image was from https://cdn.dribbble.com/users/1303003/screenshots/3988327/cat-logo.png
+The photos used in this site were obtained from pixabay.com, pexels.com, unsplash.com, shutterstock.com, pinterest.com, boredpanda.com, Logo image was from https://cdn.dribbble.com/users/1303003/screenshots/3988327/cat-logo.png
 
+### Code 
+
+- Code for the transparent overlay used are from [this Stackoverflow page]( https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image).
+- Code for the Meet The Cats gallery is from [this MDBootstrap page](https://mdbootstrap.com/docs/jquery/css/hover-effects/) to create the effect of text and an overlay to show up on hovering of an image.
 
 ### Acknowledgements
 I would like to thank my mentor, Precious Ijege, for his time, advise and comments in working with me to build my project.
