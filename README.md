@@ -51,7 +51,7 @@ I used hex codes for my choice of colors to be able to select more precise color
 #C9C180
 #E5E1D8
 #9C6F69
-These colors were taken from [Instagram](Instagram.com) however after using the colors on the actual website, they appeared differently to those on Instagram. #9C6F69 was more of a purple color and I was aiming for an orangey-brown. The revised colors for the final website are #E7E7E7, #3C3130 and #D4AF37.
+These colors were taken from [Instagram](https://instagram.com) however after using the colors on the actual website, they appeared differently to those on Instagram. #9C6F69 was more of a purple color and I was aiming for an orangey-brown. The revised colors for the final website are #E7E7E7, #3C3130 and #D4AF37.
 
 
 
@@ -181,10 +181,10 @@ To run project locally
 ## Credits
 
 ### Content
-The text for the menu section was taken from [Caffe Nero](caffenero.com) and amended accordingly. 
+The text for the menu section was taken from [Caffe Nero](https://caffenero.com) and amended accordingly. 
 
 ### Media
-The photos used in this site were obtained from [Pixabay](pixabay.com), [Pexels](pexels.com), [Unsplash](unsplash.com), [Shutterstock](shutterstock.com), [Pinterest](pinterest.com), [Bored Panda](boredpanda.com). The logo image was from [Dribble](https://cdn.dribbble.com/users/1303003/screenshots/3988327/cat-logo.png).
+The photos used in this site were obtained from [Pixabay](https://pixabay.com), [Pexels](https://pexels.com), [Unsplash](https://unsplash.com), [Shutterstock](https://shutterstock.com), [Pinterest](https://pinterest.com), [Bored Panda](https://boredpanda.com). The logo image was from [Dribble](https://cdn.dribbble.com/users/1303003/screenshots/3988327/cat-logo.png).
 
 ### Code 
 - Code for the transparent overlay used are from [this Stackoverflow page]( https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image).
