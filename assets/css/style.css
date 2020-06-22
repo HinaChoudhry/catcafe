@@ -63,6 +63,7 @@ header{
 .li-size{
   width: 200px;
 }
+
 /******************* Footer ***************/
 
 .list-style{
@@ -391,6 +392,7 @@ dd{
 .text-form:hover{
   border-color: #d4af37;
 }
+
 .text-form-box{
   border-radius: 5px;
   padding: 5px;
