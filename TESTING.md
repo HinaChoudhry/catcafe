@@ -22,15 +22,15 @@ The following links show validation for code, for each html and css file.
 - As a user, I want a menu to see what food/drink are available so I can plan ahead and choose what I want.
    * There is a menu page, with names, descriptions and prices of each food and drink item. This can be accessed via the navbar at the top-right of the homepage. Item names are underlined, with a heavier font-weight to be able to easily identify the different choices of food and drink available.
 - As a user, I want a contact/booking section to be able to book times/contact the café so I can plan my trip.
-   * There is a contact form implemented on the contact page, with different inquiries options in the dropdown list to submit. The dropdown lists various inquiries such as bookings, questions, comments and complaints that can be send via the form. The cafe phone number, e-mail address and location is also clearly visible on this page, allowing the user to plan their trip ahead of time. 
+   * There is a contact form implemented on the contact page, with different inquiry options in the dropdown list to submit. The dropdown lists various inquiries such as bookings, questions, comments and complaints that can be send via the form. The cafe phone number, e-mail address and location is also clearly visible on this page, allowing the user to plan their trip ahead of time. 
 - As a user, I want opening/closing times to see when the café is open, so I can prepare my visit in advance.
    * There are opening and closing times in the footer, which is displayed on each of the pages, in a golden colour background with off-white text to clearly highlight the opening and closing times of the cafe. 
 - As a user, I want social media links to be able to visit the company’s social media, to see what the company are like.
-   * There are social media links in the footer, when hovered over, change color to highlight that the links can be opened. Once opened, the links open in a new tab corresponding to which link was clicked. As the links open in a new tab, it is easy to navigate back to the cafe website without having to use the back button or retyping in the address of the cafe. A user can simply which tabs and navigate back to the cafe website.
+   * There are social media links in the footer, when hovered over, change color to highlight that the links can be opened. Once opened, the links open in a new tab corresponding to which link was clicked. As the links open in a new tab, it is easy to navigate back to the cafe website without having to use the back button or retyping in the address of the cafe. A user can simply switch tabs and navigate back to the cafe website.
 - As a user, I want appealing colours, layout/design of website and a website that is easy to use, to attract me to the website and allows me to navigate the site easily.
-   * There is a navbar and links for navigation that are clearly named at the top of each page. This also shrinks down to a hamburger menu in the smaller viewports, which turns into a dropdown list showing links to other pages. The colors were considered carefully and revised after initial building of the homepage. The initial colors used were considered to be boring by a few users who tested the website's overlook look and so were changed to a golden color, off-white and a chocolate brown for the text in order to make the site more appealing and eye-catching.
-- As a user, I want an introduction/info page about company to see what the company do/what they are about so I can decide if I want to visit the café. 
-   * The hero text for the homepage include information about the company, what their aim is and what they do. These are short, but detailed descriptions of what the company does and who they are to give the user a taste of what the cafe is like in a short amount of text so that the user isn't overloaded with information. 
+   * There is a navbar and links for navigation that are clearly named at the top of each page. This also shrinks down to a hamburger menu in the smaller viewports, which turns into a dropdown list showing links to other pages. The colors were considered carefully and revised after initial building of the homepage. The initial colors used were considered to be boring by a few users who tested the website's overall look and so were changed to a golden color, off-white and a chocolate brown for the text in order to make the site more appealing and eye-catching.
+- As a user, I want an introduction/info page about the company to see what the company do/what they are about so I can decide if I want to visit the café. 
+   * The hero text for the homepage includes information about the company, what their aim is and what they do. These are short, but detailed descriptions of what the company does and who they are to give the user a taste of what the cafe is like in a short amount of text so that the user isn't overloaded with information. 
 - As a user, I want a map of the café to see the location of the café so I can prepare my journey in advance.
    * There is a embedded map on the Contact page with a pin, locating the café (although the location was randomly selected). The map can be opened up into a large view if needed by the user and the address of the cafe is also listed just above the map on the contact page.
 
@@ -62,7 +62,7 @@ The carousel is again scaled down but has margins on either side of the carousel
 
 The logo and navbar are displayed at the top of the gallery section, with the nav links all being visible in a row to the right of the navbar. The heading is then displayed between the navbar in a large font-size, which tells the user what the purpose of the page is.
 The gallery contains 12 pictures and descriptions of the cafe's cats. Initally, the pictures have no descriptions on them but when an image is hovered over a description and name of the cat appears. This then disappears/appears as and when the user hovers over an image. 
-In the desktop viewport, the 12 pictures are split into 3 rows and 4 columns, so that there are 3 photos per row displayed. Each picture has a margin, allowing for there to be some place between each picture so they are more visually appealing to look at, rather than it being too overloading for the user. 
+In the desktop viewport, the 12 pictures are split into 4 rows and 3 columns, so that there are 3 photos per row displayed. Each picture has a margin, allowing for there to be some place between each picture so they are more visually appealing to look at, rather than it being too overloading for the user. 
 The picture's borders are rounded around the edges just to give it a softer look. The background color remains as the default white, to not take away from the look of the gallery and to not overload the user with too many colors/information as the pictures of the cats are already quite colorful.
 The footer is displayed below the images in one row but split in 3 columns as per the index.html. 
 
@@ -79,16 +79,100 @@ The paragraph to hint to click the image for a description is again visible just
 As there are 12 images to scroll through, the navbar fixed position allows a user to quickly navigate back to the links or desired page with ease. 
 The footer information as per the index.html is stacked on top of one another, in the mobile view.
 
+## Menu.html
+
+### Desktop view
+
+The navbar and logo are fixed at the top as per the homepage and gallery. The text for the menu is aligned to the left of the screen in the desktop view, with the background image focus being on the right side of the screen.
+The footer is under the menu and the information is displayed in one row.
+
+### Tablet view
+
+The navbar and logo are such as the desktop view, with the navbar items being visible and selectable. The background image scales down and so the beans on the image carry over a bit to the left side of the screen. The text is still kept to the left side of the screen.
+The footer is as per the desktop viewport.
+
+### Mobile view
+
+The navbar and logo scale down to fit the mobile viewport, with the navbar items being expandable and collapsable via a hamburger menu. 
+The footer is also scaled down, with the information columns being stacked on top on another instead of next to each other in a row.
+
+## Contactus.html
+
+### Desktop view 
+
+The navbar and logo are fixed at the top of the page, with the navigation item links being visible in a row. Underneath this, there are contact details for the cafe that are in one row and two columns, with a contact form and map being placed in a row beneath the contact info. The contact form on the left of the screen, has four different fields; Name, E-mail address, Type of Inquiry (with a dropdown list of different types of inquiries) and Comments. The user is unable to submit any information unless the fields are all filled/selected. On the right of the page is the map. This can be enlarged if the user would prefer a larger map. 
+Underneath this, there is an image of four kittens with the caption "See you soon" just above it. This image has an off-white background so it blends with the background color of the page so the kittens stand out against the white background. 
+The footer is underneath the kittens image, with the information being displayed in one row.
+
+### Tablet view 
+
+The navigation bar and logo are fixed atop the page, with navbar item links being visible in one row. In the tablet viewport, the contact information for phone and e-mail text and the contact form are in one column, spanning the width of the screen with a margin on both sides for aesthetics. The contact form again requires information to be in the fields to allow a user to submit. 
+Underneath this, the address of the cafe is displayed and the map of the location is underneath the address so that the form and map are stacked in the tablet viewport. 
+The kitten image is displayed in another row below the map and form, with the same caption as the desktop view but scaled down to span the width of the viewport.
+The footer is at the bottom of the page, with the information being in one row across the viewport. 
+
+### Mobile view 
+
+The logo and navigation bar are scaled down and the navigation item links are in a collapsable/expandable hamburger menu. The contact information for the cafe and the contact form are scaled down for the mobile viewport, being stacked on top of one another with a margin between them. The address and location of the cafe are then stacked underneath the contact form, with the map spanning almost the width of the viewport, with a margin. 
+The kittens image again is scaled down to fit the viewport, with the 'See you soon!' message displayed as well. The footer section is below the kittens image, with the information being stacked on top of each other instead of in a row. 
+
+## FAQ.html
+
+### Desktop view 
+
+The navigation bar and logo span across the top of the screen, with the navigation item links being displayed in a row next to each other on the right side of the page while the logo is on the left. The navigation bar is in a fixed position for easy navigation. 
+In the FAQ section, there are questions and answers displayed. They are stacked on top of one another, with the format of question then answer, question then answer etc. The questions have a semi-transparent background color of a royal blue with off-white text. The answers have a semi-transparent background color of off-white with royal blue text.
+The questions and answers are centralised down the page, with margins between them for it to be easier for the user to read the text rather than having the items too close together. The text spans to almost the width of the viewport for longer answers but they do not go beyond a col-10 size on desktop or tablet. The borders of the questions and answers are slightly rounded rather than having a sharp edge. 
+The footer is displayed at the bottom of the page, with the information being in one row across the viewport. 
+
+### Tablet view
+
+The navigation bar and logo are displayed at the top of the page, with the navigation item links being in one row to the right of the screen and the logo on the left side of the screen. 
+The questions and answers have the same color scheme as the desktop view and they are still stacked, with margins around them to make them stand out and easier to read. 
+The footer is displayed at the bottom of hte page, with the information being in one row across the viewport. 
+
+### Mobile view
+
+The navigation bar and the logo are fixed at the top of the page, with the navigation item links being collapsable/expandable with the hamburger menu icon. The hamburger icon is on the right of the page while the logo is on the left. 
+The color scheme remains the same for the mobile viewport and the questions and answers stack on top of one another but the width of the questions and answers span across the mobile view, with a still margin around them. 
+The footer section is below this, with the information being stacked on top of each other instead of being displayed in one row, spanning the width of the viewport. 
 
 
+## Responsiveness in browsers
 
-The features were tested on multiple browsers and devices to check if the features were appealing as well as responsive. 
-- I had initial problems with the logo and hamburger menu. They were not responsive to different viewports and the dropdown for the menu had too much padding, making the links drop further below the navbar. By removing extra padding in the CSS this made the dropdown links fit on the navbar instead of falling below. 
-- Navbar dropdown list items were dropping below the navbar height on mobile and tablet viewports. Resolved by adjusting the padding for list items.
-- Lot of whitespace in smaller viewports between the hero image and readytobook. Bug fixed by applying background-position-y.
-- Home link showing as active item on all pages. Resolved by adding 'active' to the correct files, corresponding to which page is being viewed.
-- Unspecific classes were creating bugs on different pages - made more specific classes fixed these bugs.
-- Kittens.jpg image was not responding to smaller viewports. Resolved by using an img src instead of using the image as a background class, and the class img-fluid.
-- Vertical line from middle of navbar to bottom was showing. Resolved by removing the original logo image and turning it into a brand within the navbar.
-- Dropdown list for menu was showing on left side of screen. Moved to right side as wanted by using the flex class in Bootstrap.
-- A bug was accidentally created by using a 'center' class, to center the text on the readytobook image. Images in the gallery were half cropped due to this. Resolved by changing the center class name to center-book.
+### [Google Chrome](https://www.google.co.uk/chrome/?brand=CHBD&gclid=EAIaIQobChMIi5nY65OY6gIVKoBQBh15wQBrEAAYASAAEgKlOvD_BwE&gclsrc=aw.ds)
+
+This was the default browser used to build the website in. DevTools was used to check for responsiveness in different viewports as well as inspecting code. With this browser, each page of the website is responsive and acts how it should.
+
+### [Firefox](https://www.mozilla.org/en-GB/firefox/new/)
+
+The website is also responsive on Firefox and there were no bugs found while using the website in Firefox.
+
+### [Microsoft Edge](https://www.microsoft.com/en-us/edge)
+
+The website is responsive in Microsoft Edge, however a bug was found that the semi-transparent background colors for the contact form and the questions and answers failed to display.
+
+### [Safari](https://www.apple.com/uk/safari/) 
+
+The website was responsive and no bugs were found.
+
+## Bugs and resolutions
+
+- On the index.html, there was white space on the right side of the screen on all viewports. 
+    * This was resolved by using `html, body{width: 100%; overflow-x: hidden;}` in the css file. 
+- Navbar dropdown list items were dropping below the navbar height on mobile and tablet viewports. 
+    * Resolved by reducing the padding for list items, creating less space between each item and therefore making it fit on the dropdown menu.
+- Home link showing as active item on all pages. 
+    *  Resolved by adding the `active` class to the correct element on each page, corresponding to which page is being viewed.
+- Unspecific classes were creating bugs on different pages.
+    * Made more specific classes fixed these bugs by renaming the classes and then using the new names to make them more specific to what is needed.
+- Kittens.jpg image was not responding to smaller viewports. 
+    * Resolved by using an `img src` instead of using the image as a `background-image: url`, and adding the class `img-fluid`.
+- Vertical line from middle of navbar to bottom was showing. 
+    * Resolved by removing the original logo image and turning it into a brand within the navbar.
+- Dropdown list for menu was showing on left side of screen. 
+    * Moved to right side as wanted by using the `flex` class in Bootstrap.
+- A bug was accidentally created by using a 'center' class, to center the text on the readytobook image. Images in the gallery were half cropped due to this. 
+    * Resolved by changing the center class name to center-book, making it a more specific class.
+- The menu design was originally brown text over a cup of coffee with coffee art on it. It was hard to read brown text over the image in smaller viewports as text was placed over coffee cup. 
+    * The background image was then changed to the coffee bean image, with off-white writing and the text being on the left to make it easier to read for users in all viewports.
