@@ -121,7 +121,7 @@ The FAQ section gives an overview of rules to follow when visiting.
 
 ## Testing
 
-Testing information can be found at [TESTING.md](insert link)
+Testing information can be found at [TESTING.md](https://github.com/HinaChoudhry/catcafe/blob/master/TESTING.md)
 
 ## Deployment
 

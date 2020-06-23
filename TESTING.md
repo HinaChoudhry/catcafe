@@ -1,8 +1,12 @@
 ## Testing
-- [W3C Mark-up Validation](https://validator.w3.org/) This was used for checking html cold for validity and to ensure there were no errors in the html code. 
-- [W3C CSS Validation](https://jigsaw.w3.org/css-validator/). This was used for checking errors in the CSS code. 
+- [W3C Mark-up Validation](https://validator.w3.org/) was used for checking html code for validity and to ensure there were no errors in the html code. 
+- [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) was used for checking errors in the CSS code. 
 
-- [This link](https://i.imgur.com/hGnzN0F.jpg) shows how the html for my website is valid.
+- [Results](https://i.imgur.com/hGnzN0F.jpg) for the index.html, showing validation.
+- 
+
+
+
 - [This image](https://i.imgur.com/GduNbbQ.jpg) shows the CSS for my website is valid.
 
 
