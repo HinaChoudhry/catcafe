@@ -14,7 +14,7 @@ header{
 }
 
 .bg-color{
-  background-color: #bdced6;
+  background-color: #bdced679;
 }
 
 /***Homepage****/
@@ -342,7 +342,7 @@ dd{
 /******Contact*****/
 
 .contact-bg{
-  background-image: linear-gradient(#d4af37, #fdfdfd, #fdfdfd);
+  background-image: linear-gradient(#d4af37d8, #fdfdfd, #fdfdfd);
   background-size: contain;
   background-repeat: no-repeat;
   max-width: 100%;

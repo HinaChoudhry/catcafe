@@ -17,22 +17,22 @@ The following links show validation for code, for each html and css file.
 
 ## User Story Tests
 
-- As a user, I want an FAQ of the café to see which rules to follow while in the café.
-   * There is an FAQ on the 5th page of the website, where questions and answers can be found regarding the cafe rules. This can be found at the top of the homepage, in the navbar. There is also a link the contact page in case of further questions or queries which is clearly highlighted.
+- As a user, I want an FAQ of the cafe to see which rules to follow while in the cafe.
+   * There is an FAQ on the 5th page of the website, where questions and answers can be found regarding the cafe rules. Th link for the FAQ section can be found at the top of the homepage, in the navbar. There is also a link the contact page in case of further questions or queries which is clearly highlighted.
 - As a user, I want a menu to see what food/drink are available so I can plan ahead and choose what I want.
    * There is a menu page, with names, descriptions and prices of each food and drink item. This can be accessed via the navbar at the top-right of the homepage. Item names are underlined, with a heavier font-weight to be able to easily identify the different choices of food and drink available.
-- As a user, I want a contact/booking section to be able to book times/contact the café so I can plan my trip.
+- As a user, I want a contact/booking section to be able to book times/contact the cafe so I can plan my trip.
    * There is a contact form implemented on the contact page, with different inquiry options in the dropdown list to submit. The dropdown lists various inquiries such as bookings, questions, comments and complaints that can be send via the form. The cafe phone number, e-mail address and location is also clearly visible on this page, allowing the user to plan their trip ahead of time. 
-- As a user, I want opening/closing times to see when the café is open, so I can prepare my visit in advance.
+- As a user, I want opening/closing times to see when the cafe is open, so I can prepare my visit in advance.
    * There are opening and closing times in the footer, which is displayed on each of the pages, in a golden colour background with off-white text to clearly highlight the opening and closing times of the cafe. 
 - As a user, I want social media links to be able to visit the company’s social media, to see what the company are like.
    * There are social media links in the footer, when hovered over, change color to highlight that the links can be opened. Once opened, the links open in a new tab corresponding to which link was clicked. As the links open in a new tab, it is easy to navigate back to the cafe website without having to use the back button or retyping in the address of the cafe. A user can simply switch tabs and navigate back to the cafe website.
 - As a user, I want appealing colours, layout/design of website and a website that is easy to use, to attract me to the website and allows me to navigate the site easily.
-   * There is a navbar and links for navigation that are clearly named at the top of each page. This also shrinks down to a hamburger menu in the smaller viewports, which turns into a dropdown list showing links to other pages. The colors were considered carefully and revised after initial building of the homepage. The initial colors used were considered to be boring by a few users who tested the website's overall look and so were changed to a golden color, off-white and a chocolate brown for the text in order to make the site more appealing and eye-catching.
-- As a user, I want an introduction/info page about the company to see what the company do/what they are about so I can decide if I want to visit the café. 
+   * There is a navbar and links for navigation that are clearly named at the top of each page. This also shrinks down to a hamburger menu in the smaller viewports, which turns into a dropdown list showing links to other pages. The colors were considered carefully and revised after initial building of the homepage. The initial colors used were considered to be boring by a few users who tested the website's overall look and so were changed to a golden color, royal blue, off-white and a chocolate brown for the text in order to make the site more appealing and eye-catching.
+- As a user, I want an introduction/info page about the company to see what the company do/what they are about so I can decide if I want to visit the cafe. 
    * The hero text for the homepage includes information about the company, what their aim is and what they do. These are short, but detailed descriptions of what the company does and who they are to give the user a taste of what the cafe is like in a short amount of text so that the user isn't overloaded with information. 
-- As a user, I want a map of the café to see the location of the café so I can prepare my journey in advance.
-   * There is a embedded map on the Contact page with a pin, locating the café (although the location was randomly selected). The map can be opened up into a large view if needed by the user and the address of the cafe is also listed just above the map on the contact page.
+- As a user, I want a map of the cafe to see the location of the cafe so I can prepare my journey in advance.
+   * There is a embedded map on the Contact page with a pin, locating the cafe (although the location was randomly selected). The map can be opened up into a large view if needed by the user and the address of the cafe is also listed just above the map on the contact page.
 
 # Responsiveness 
 
@@ -68,13 +68,13 @@ The footer is displayed below the images in one row but split in 3 columns as pe
 
 ### Tablet view
 
-The navbar and logo are still at the top of the page in a fixed position, with all the links being visible in a row. Above the pictures of the cats, there is now a paragraph to hint that the photos have to be clicked for the descriptions to show up on the image. This was added for tablet and mobile viewports as the user is unable to hover as they would on a desktop with a cursor. The likeliness of a user hovering over an image with a cursor on desktop is high and so the descriptions would show. After testing by users on tablet and mobile, feedback was that a hint is needed to click the photos on tablet and mobile viewports due to the unlikeliness of a user clicking a picture 'by accident'. 
+The navbar and logo are still at the top of the page in a fixed position, with all the links being visible in a row. The heading is still visible on the tablet view, but slightly smaller. Above the pictures of the cats, there is now a paragraph to hint that the photos have to be clicked for the descriptions to show up on the image. This was added for tablet and mobile viewports as the user is unable to hover as they would on a desktop with a cursor. The likeliness of a user hovering over an image with a cursor on desktop is high and so the descriptions would show. After testing by users on tablet and mobile, feedback was that a hint is needed to click the photos on tablet and mobile viewports due to the unlikeliness of a user clicking a picture 'by accident'. 
 The images in the tablet viewport now appear in columns of 2 photos per row, instead of 3 per row. This is to allow the size of the images and descriptions to remain relatively large in order to draw the user's interest in. Initially, 9 photos of cats were used in total. This was changed to 12 because with 9 photos, in the tablet viewport, it left one image in its own row at the end of the page and so was unequal to all the other rows with two photos per row. By adding three more photos, this equalled out the rows and looks aesthetically more pleasing.
 The footer is beneath the cat images, still in one row with three columns but with less but enough spacing between each secction of information.
 
 ### Mobile view
 
-The navbar and logo are scaled down as per the index.html, with the navbar links again being collapsable and expandable via a hamburger menu dropdown. 
+The navbar and logo are scaled down as per the index.html, with the navbar links again being collapsable and expandable via a hamburger menu dropdown. The heading is again visible but has scaled down to the mobile viewport. 
 The paragraph to hint to click the image for a description is again visible just above the first image as explained above. The images are now displayed one per row and column so they are stacked on top of one another. Descriptions are still available to view on clicking on an image. 
 As there are 12 images to scroll through, the navbar fixed position allows a user to quickly navigate back to the links or desired page with ease. 
 The footer information as per the index.html is stacked on top of one another, in the mobile view.
@@ -83,57 +83,57 @@ The footer information as per the index.html is stacked on top of one another, i
 
 ### Desktop view
 
-The navbar and logo are fixed at the top as per the homepage and gallery. The text for the menu is aligned to the left of the screen in the desktop view, with the background image focus being on the right side of the screen.
+The navbar and logo are fixed at the top as per the homepage and gallery. The text for the menu is aligned to the left of the screen in the desktop view, with the background image focus being on the right side of the screen. The is a heading of 'menu' and sub-headings of the different types of drinks/foods available, which is again split into smaller sub-headings with descriptions of the drinks and foods mentioned.
 The footer is under the menu and the information is displayed in one row.
 
 ### Tablet view
 
-The navbar and logo are such as the desktop view, with the navbar items being visible and selectable. The background image scales down and so the beans on the image carry over a bit to the left side of the screen. The text is still kept to the left side of the screen.
+The navbar and logo are such as the desktop view, with the navbar items being visible and selectable. The background image scales down and so the beans on the image carry over a bit to the left side of the screen. The text is still kept to the left side of the screen, with visible headings, sub-headings and descriptions of items sold.
 The footer is as per the desktop viewport.
 
 ### Mobile view
 
-The navbar and logo scale down to fit the mobile viewport, with the navbar items being expandable and collapsable via a hamburger menu. 
+The navbar and logo scale down to fit the mobile viewport, with the navbar items being expandable and collapsable via a hamburger menu. The heading, sub-headings and descriptions of the items are again listed, but are now more centralised rather than aligned to the left with a margin on both sides of the text.
 The footer is also scaled down, with the information columns being stacked on top on another instead of next to each other in a row.
 
 ## Contactus.html
 
 ### Desktop view 
 
-The navbar and logo are fixed at the top of the page, with the navigation item links being visible in a row. Underneath this, there are contact details for the cafe that are in one row and two columns, with a contact form and map being placed in a row beneath the contact info. The contact form on the left of the screen, has four different fields; Name, E-mail address, Type of Inquiry (with a dropdown list of different types of inquiries) and Comments. The user is unable to submit any information unless the fields are all filled/selected. On the right of the page is the map. This can be enlarged if the user would prefer a larger map. 
+The navbar and logo are fixed at the top of the page, with the navigation item links being visible in a row. There is a heading of 'Contact Us' at the top of the section. Underneath this, there are contact details for the cafe that are in one row and two columns, with a contact form and map being placed in a row beneath the contact info. The contact form on the left of the screen, has four different fields; Name, E-mail address, Type of Inquiry (with a dropdown list of different types of inquiries) and Comments. The user is unable to submit any information unless the fields are all filled/selected. On the right of the page is the map. This can be enlarged if the user would prefer a larger map. 
 Underneath this, there is an image of four kittens with the caption "See you soon" just above it. This image has an off-white background so it blends with the background color of the page so the kittens stand out against the white background. 
 The footer is underneath the kittens image, with the information being displayed in one row.
 
 ### Tablet view 
 
-The navigation bar and logo are fixed atop the page, with navbar item links being visible in one row. In the tablet viewport, the contact information for phone and e-mail text and the contact form are in one column, spanning the width of the screen with a margin on both sides for aesthetics. The contact form again requires information to be in the fields to allow a user to submit. 
+The navigation bar and logo are fixed atop the page, with navbar item links being visible in one row. In the tablet viewport, the heading scaled down to fit the screen. The contact information for phone and e-mail text and the contact form are in one column, spanning the width of the screen with a margin on both sides for aesthetics. The contact form again requires information to be in the fields to allow a user to submit. 
 Underneath this, the address of the cafe is displayed and the map of the location is underneath the address so that the form and map are stacked in the tablet viewport. 
 The kitten image is displayed in another row below the map and form, with the same caption as the desktop view but scaled down to span the width of the viewport.
 The footer is at the bottom of the page, with the information being in one row across the viewport. 
 
 ### Mobile view 
 
-The logo and navigation bar are scaled down and the navigation item links are in a collapsable/expandable hamburger menu. The contact information for the cafe and the contact form are scaled down for the mobile viewport, being stacked on top of one another with a margin between them. The address and location of the cafe are then stacked underneath the contact form, with the map spanning almost the width of the viewport, with a margin. 
+The logo and navigation bar are scaled down and the navigation item links are in a collapsable/expandable hamburger menu. The heading is scaled own for mobile, The contact information for the cafe and the contact form are also scaled down for the mobile viewport, being stacked on top of one another with a margin between them. The address and location of the cafe are then stacked underneath the contact form, with the map spanning almost the width of the viewport, with a margin. 
 The kittens image again is scaled down to fit the viewport, with the 'See you soon!' message displayed as well. The footer section is below the kittens image, with the information being stacked on top of each other instead of in a row. 
 
 ## FAQ.html
 
 ### Desktop view 
 
-The navigation bar and logo span across the top of the screen, with the navigation item links being displayed in a row next to each other on the right side of the page while the logo is on the left. The navigation bar is in a fixed position for easy navigation. 
+The navigation bar and logo span across the top of the screen, with the navigation item links being displayed in a row next to each other on the right side of the page while the logo is on the left. The navigation bar is in a fixed position for easy navigation. There is a heading of 'FAQ' at the top of the the section. 
 In the FAQ section, there are questions and answers displayed. They are stacked on top of one another, with the format of question then answer, question then answer etc. The questions have a semi-transparent background color of a royal blue with off-white text. The answers have a semi-transparent background color of off-white with royal blue text.
 The questions and answers are centralised down the page, with margins between them for it to be easier for the user to read the text rather than having the items too close together. The text spans to almost the width of the viewport for longer answers but they do not go beyond a col-10 size on desktop or tablet. The borders of the questions and answers are slightly rounded rather than having a sharp edge. 
 The footer is displayed at the bottom of the page, with the information being in one row across the viewport. 
 
 ### Tablet view
 
-The navigation bar and logo are displayed at the top of the page, with the navigation item links being in one row to the right of the screen and the logo on the left side of the screen. 
+The navigation bar and logo are displayed at the top of the page, with the navigation item links being in one row to the right of the screen and the logo on the left side of the screen. The 'FAQ' heading is still visible at the top of the section. 
 The questions and answers have the same color scheme as the desktop view and they are still stacked, with margins around them to make them stand out and easier to read. 
 The footer is displayed at the bottom of hte page, with the information being in one row across the viewport. 
 
 ### Mobile view
 
-The navigation bar and the logo are fixed at the top of the page, with the navigation item links being collapsable/expandable with the hamburger menu icon. The hamburger icon is on the right of the page while the logo is on the left. 
+The navigation bar and the logo are fixed at the top of the page, with the navigation item links being collapsable/expandable with the hamburger menu icon. The hamburger icon is on the right of the page while the logo is on the left. The heading is scaled down for the mobile viewport.
 The color scheme remains the same for the mobile viewport and the questions and answers stack on top of one another but the width of the questions and answers span across the mobile view, with a still margin around them. 
 The footer section is below this, with the information being stacked on top of each other instead of being displayed in one row, spanning the width of the viewport. 
 
