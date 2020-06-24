@@ -1,10 +1,8 @@
 # Testing
 
-## Technologies used for testing
+## Code Validation
 - [W3C Mark-up Validation](https://validator.w3.org/) was used for checking html code for validity and to ensure there were no errors in the html code. 
 - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) was used for checking errors in the CSS code. 
-
-### Validation of code
 
 The following links show validation for code, for each html and css file.
 
@@ -60,15 +58,15 @@ The carousel is again scaled down but has margins on either side of the carousel
 
 ### Desktop view
 
-The logo and navbar are displayed at the top of the gallery section, with the nav links all being visible in a row to the right of the navbar. The heading is then displayed between the navbar in a large font-size, which tells the user what the purpose of the page is.
-The gallery contains 12 pictures and descriptions of the cafe's cats. Initally, the pictures have no descriptions on them but when an image is hovered over a description and name of the cat appears. This then disappears/appears as and when the user hovers over an image. 
+The logo and navbar are displayed at the top of the gallery section, with the nav links all being visible in a row to the right of the navbar. The heading is then displayed below the navbar in a large font-size, which tells the user what the purpose of the page is.
+The gallery contains 12 pictures and descriptions of the cafe's cats. Initally, the pictures have no descriptions on them but when an image is hovered over with a cursor, an overlay, description and name of the cat appears over the image. This then disappears/appears as and when the user hovers over an image. There is text just above the first row of photos to hint to the user to hover over the images for a description as user feedback indicated this was not a very obvious action to carry out. Originally, this hint was only incorporated for tablet and mobile viewports but after user feedback, it was also added to the desktop view as well, as users said it was not necessarily an action that would be carried out naturally.
 In the desktop viewport, the 12 pictures are split into 4 rows and 3 columns, so that there are 3 photos per row displayed. Each picture has a margin, allowing for there to be some place between each picture so they are more visually appealing to look at, rather than it being too overloading for the user. 
 The picture's borders are rounded around the edges just to give it a softer look. The background color remains as the default white, to not take away from the look of the gallery and to not overload the user with too many colors/information as the pictures of the cats are already quite colorful.
 The footer is displayed below the images in one row but split in 3 columns as per the index.html. 
 
 ### Tablet view
 
-The navbar and logo are still at the top of the page in a fixed position, with all the links being visible in a row. The heading is still visible on the tablet view, but slightly smaller. Above the pictures of the cats, there is now a paragraph to hint that the photos have to be clicked for the descriptions to show up on the image. This was added for tablet and mobile viewports as the user is unable to hover as they would on a desktop with a cursor. The likeliness of a user hovering over an image with a cursor on desktop is high and so the descriptions would show. After testing by users on tablet and mobile, feedback was that a hint is needed to click the photos on tablet and mobile viewports due to the unlikeliness of a user clicking a picture 'by accident'. 
+The navbar and logo are still at the top of the page in a fixed position, with all the links being visible in a row. The heading is still visible on the tablet view, but slightly smaller. Above the pictures of the cats, there is again a paragraph to hint that the photos have to be hovered over for the descriptions to show up on the image. 
 The images in the tablet viewport now appear in columns of 2 photos per row, instead of 3 per row. This is to allow the size of the images and descriptions to remain relatively large in order to draw the user's interest in. Initially, 9 photos of cats were used in total. This was changed to 12 because with 9 photos, in the tablet viewport, it left one image in its own row at the end of the page and so was unequal to all the other rows with two photos per row. By adding three more photos, this equalled out the rows and looks aesthetically more pleasing.
 The footer is beneath the cat images, still in one row with three columns but with less but enough spacing between each secction of information.
 
@@ -176,6 +174,7 @@ The website was responsive and no bugs were found.
     * Resolved by changing the center class name to center-book, making it a more specific class.
 - The menu design was originally brown text over a cup of coffee with coffee art on it. It was hard to read brown text over the image in smaller viewports as text was placed over coffee cup. 
     * The background image was then changed to the coffee bean image, with off-white writing and the text being on the left to make it easier to read for users in all viewports.
+
 
 ## Unresolved bugs
 
