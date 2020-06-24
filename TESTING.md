@@ -176,3 +176,7 @@ The website was responsive and no bugs were found.
     * Resolved by changing the center class name to center-book, making it a more specific class.
 - The menu design was originally brown text over a cup of coffee with coffee art on it. It was hard to read brown text over the image in smaller viewports as text was placed over coffee cup. 
     * The background image was then changed to the coffee bean image, with off-white writing and the text being on the left to make it easier to read for users in all viewports.
+
+## Unresolved bugs
+
+- The background image for the FAQ scales down to smaller viewports but doesn't focus on the main coffee cup with the coffee art the smaller the viewport gets. It gets cropped out inside of focusing into the coffee art.
